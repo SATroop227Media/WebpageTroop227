@@ -1,5 +1,7 @@
-import leaders from './assets/leaders.jpg'
-import project from './assets/project1.jpg'
+import project1 from './assets/project1.jpg'
+import project2 from './assets/project2.jpg'
+import project3 from './assets/project3.jpg'
+import scoutMasters from './assets/leaders.jpg'
 import './App.css'
 
 function App() {
@@ -26,15 +28,13 @@ function App() {
     </section>
     <div className='container'>
       <section className='home-intro'>
+        <figure>
+          <img src={scoutMasters}/>
+        </figure>
         {/* This is copied from the offical BS site Make sure to change! */}
         <div className='mission'>
           <h1>Our Mission</h1>
           <p>The mission of the Boy Scouts of America is to prepare young people to make ethical and moral choices over their lifetimes by instilling in them the values of the Scout Oath and Law.</p>
-        </div>
-        <div className='container'>
-          <h2>Our Scoutmaster</h2>
-          <img src={leaders}/>
-          <p>Welcoming message from Mark Moreno</p>
         </div>
       </section>
     </div>
@@ -43,7 +43,21 @@ function App() {
       <p>Living by the Scout Oath and helping their community!</p>
       <figure>
         <figcaption>
-          <img src={project}/>
+          <img src={project1}/>
+          <p>Project title</p>
+          <a href=''>Project Details</a>
+        </figcaption>
+      </figure>
+      <figure>
+        <figcaption>
+          <img src={project2}/>
+          <p>Project title</p>
+          <a href=''>Project Details</a>
+        </figcaption>
+      </figure>
+      <figure>
+        <figcaption>
+          <img src={project3}/>
           <p>Project title</p>
           <a href=''>Project Details</a>
         </figcaption>
