@@ -1,0 +1,163 @@
+
+header {
+  position: absolute;
+  width: 100vw;
+  background-color: #435A48;
+  padding: .35em;
+}
+
+.header-logo {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: .5em;
+  text-align: left;
+  width: 95%;
+}
+
+.header-logo img {
+  width: 3rem;
+}
+
+.header-logo h1 {
+  margin: 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin: .5em 1em;
+}
+
+nav a {
+  font-family: 'Montserrat',sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: .8rem;
+  font-weight: 500;
+  padding: .5em;
+  color: #FFE8CD;
+}
+
+nav a:hover,
+nav a:focus {
+  text-decoration: underline;
+  color: #ffdbb2;
+}
+
+@media (min-width: 45rem) {
+
+  header {
+    padding: .6em;
+  }
+
+  .header-logo img {
+    width: 4em;
+  }
+
+  .header-logo {
+    float: left;
+    width: initial;
+  }
+
+  nav {
+    float: right;
+    margin: .5em;
+    padding-top: .68em;
+  }
+
+  nav a {
+    font-size: 1rem;
+  }
+}
+
+/* typography
+==================================*/
+
+h1 {
+  font-weight: 400;
+  font-size: 2.75rem;
+}
+
+.header-title {
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: #FFE8CD;
+}
+
+.header-title span {
+  font-weight: 450;
+  display: block;
+  font-size: .75em;
+}
+
+.home-banner--statement {
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+
+.home-banner--statement span {
+  display: block;
+  font-weight: 300;
+  font-size: .5em;
+}
+
+
+@media (min-width: 45rem) {
+  .header-title {
+    font-size: 2rem;
+  }
+
+  .home-banner--statement {
+    font-size: 3.75rem;
+  }
+}
+
+
+/* home-banner 
+===================================*/
+  
+.home-banner {
+  background-image: url(./assets/banner1.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 10em 0em;
+  color: #FFF;
+}
+
+/* .home-banner::after {
+  background: radial-gradient(circle, rgba(255,255,255,0) 48%, rgba(0,0,0,1) 100%);
+  content: "";
+  inset: 0;
+  position: absolute;
+  z-index: 0;
+  backdrop-filter: blur(1px);
+} */
+
+@media (min-width: 45rem) {
+  .home-banner {
+    height: 100vh;
+    /* This is what allows us to dynamically center the home-banner--statement */
+    padding-top: 37vh;
+  }
+}
+
+/*home-intro
+==============================*/
+
+.mission {
+  background-color: #fff;
+  padding: 3em;
+  color: #1a1a1a;
+
+  /* Since it's wrapped in a container we use these offsets to push it to the screen size */
+  width: 100vw;
+  margin-left: -2.5%;
+
+  outline: 5px solid #CE1126;
+  outline-offset: -2.5em;
+}
