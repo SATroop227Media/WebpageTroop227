@@ -162,4 +162,18 @@ h1 {
 
   outline: 5px solid #CE1126;
   outline-offset: -2.5em;
+  position: relative;
+}
+
+.mission h1 {
+  font-size: 1.6rem;
+  position: absolute;
+
+  /* This is how we are centering on the outline */
+  left: 50%;
+  transform: translateX(-50%);
+
+  top: .75em;
+  background: #fff;
+  padding: 0 .25em;
 }
