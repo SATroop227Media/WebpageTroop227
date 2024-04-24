@@ -81,6 +81,7 @@ nav a:focus {
 h1 {
   font-weight: 400;
   font-size: 2.75rem;
+  margin-top: 0rem;
 }
 
 .header-title {
@@ -98,6 +99,7 @@ h1 {
 .home-banner--statement {
   font-weight: 500;
   font-size: 2.5rem;
+  margin-top: 1rem;
 }
 
 .home-banner--statement span {
@@ -151,7 +153,7 @@ h1 {
 
 .mission {
   background-color: #fff;
-  padding: 3em;
+  padding: 4em;
   color: #1a1a1a;
 
   /* Since it's wrapped in a container we use these offsets to push it to the screen size */
