@@ -151,53 +151,39 @@ h1 {
 /*home-intro
 ==============================*/
 
-.home-intro figure {
-  display: none;  
+.home-intro {
+  background-color: #262624;
 }
 
+.home-intro figure {
+  display: none;
+  margin: 0;
+}
+
+
+
 .mission {
-  background-color: #fff;
-  padding: 4em;
-  color: #1a1a1a;
-  background-color: pink;
+  text-align:initial;
+  
+  color: #fff;
   /* Since it's wrapped in a container we use these offsets to push it to the screen size */
+  padding: 4em;
   width: 100vw;
   margin-left: -2.5%;
-
-  outline: 5px solid #CE1126;
-  outline-offset: -2.5em;
   position: relative;
 }
 
-.mission h1 {
-  position: absolute;
 
-  /* This is how we are centering on the outline */
-  left: 50%;
-  transform: translateX(-50%);
-
-  top: .75em;
-  background: #fff;
-  padding: 0 .25em;
-}
-
-@media (min-width: 30rem) {
+@media (min-width: 40rem) {
   h1 {
     font-size: 2rem;
   }
 
-  .mission h1 {
-    top: .5em;
-    padding: 0 .325em;
 
-  }
-
-}
-
-@media (min-width: 40rem) {
-   .home-intro figure {
+  .home-intro figure {
     display: initial;
   }
+
 }
 
 @media (min-width: 60rem) {
@@ -205,12 +191,9 @@ h1 {
     font-size: 2.5rem;
   }
 
-  .mission h1 {
-    top: .3em;
-    padding: 0 .55em;
 
+  .home-intro figure img{
+    width: auto;
   }
-
- 
 
 }

@@ -1,7 +1,7 @@
 import project1 from './assets/project1.jpg'
 import project2 from './assets/project2.jpg'
 import project3 from './assets/project3.jpg'
-import scoutMasters from './assets/leaders.jpg'
+import scoutMasters from './assets/leaders_edit.jpg'
 import './App.css'
 
 function App() {
@@ -26,18 +26,24 @@ function App() {
         <h1 className='home-banner--statement'>Impacting the community<span>by shaping the youth of Johnson County for 60 years.</span></h1>
       </div>
     </section>
-    <div className='container'>
       <section className='home-intro'>
-        <figure>
-          <img src={scoutMasters}/>
-        </figure>
-        {/* This is copied from the offical BS site Make sure to change! */}
-        <div className='mission'>
-          <h1>Our Mission</h1>
-          <p>The mission of the Boy Scouts of America is to prepare young people to make ethical and moral choices over their lifetimes by instilling in them the values of the Scout Oath and Law.</p>
+        <div className='container'>
+          <figure>
+            <img src={scoutMasters}/>
+          </figure>
+          {/* This is copied from the offical BS site Make sure to change! */}
+          <div className='mission'>
+            <h1>Be Prepared</h1>
+            <h2>Our Mission</h2>
+            <p>The mission of the Boy Scouts of America is to prepare young people to make ethical and moral choices over their lifetimes by instilling in them the values of the Scout Oath and Law.</p>
+            <h2>Scout Law</h2>
+            <p>A Scout is trustworthy, loyal, helpful, friendly, courteous, kind, obedient, cheerful, thrifty, brave, clean, and reverent.</p>
+            <h2>Scout Oath</h2>
+            <p>“On my honor I will do my best to do my duty to God and my country and to obey the Scout Law; to help other people at all times; to keep myself physically strong, mentally awake, and morally straight.”</p>  
+          </div>
+        
         </div>
       </section>
-    </div>
     <section className='home-gallary'>
       <h1>Community Impact</h1>
       <p>Living by the Scout Oath and helping their community!</p>
