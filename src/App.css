@@ -11,7 +11,7 @@ header {
   grid-template-columns: max-content 1fr;
   gap: .5em;
   text-align: left;
-  width: 95%;
+  width: 90%;
 }
 
 .header-logo img {
@@ -79,12 +79,21 @@ nav a:focus {
 ==================================*/
 
 h1 {
-  font-weight: 400;
-  font-size: 1.6rem;
-  margin-top: 0rem;
+  font-weight: 700;
+  font-family: 'Roboto Slab', serif;
+  font-size: 2rem;
+  margin: 0rem;
 }
 
 h2 {
+  font-family: 'Roboto Slab', serif;
+  margin: 0rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #003F87;
+}
+
+p {
   margin: 0rem;
 }
 
@@ -156,7 +165,7 @@ h2 {
 ==============================*/
 
 .home-intro {
-  background-color: #262624;
+  background-color: #FFF;
 }
 
 .home-intro figure {
@@ -165,43 +174,39 @@ h2 {
 }
 
 
-
-.home-intro--content {
+.home-intro--all {
+  padding: 1.75rem 0;
   text-align:initial;
-  
-  color: #c0c8ce;
-  /* Since it's wrapped in a container we use these offsets to push it to the screen size */
-  padding: 2.5em;
-
+  color: #4d4d4d; 
 }
 
-.home-intro--content h1 {
-  border-bottom: 1px solid #fff;
+.home-intro--all h1 {
+  border-bottom: 1px solid #003F87;
+  color: #003F87;
 }
 
-#mission {
-  color: #CE1126;
-}
-
-#scout-law {
-  color: #fff;
-}
-
-#scout-oath {
+.home-intro-all h2 {
   color: #003F87;
 }
 
 
 @media (min-width: 40rem) {
   h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
     font-size: 2rem;
   }
+
+}
+
+@media (min-width: 55rem) {
 
 
   .home-intro figure {
     display: initial;
   }
-
 }
 
 @media (min-width: 60rem) {
