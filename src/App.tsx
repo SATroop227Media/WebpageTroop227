@@ -32,13 +32,13 @@ function App() {
             <img src={scoutMasters}/>
           </figure>
           {/* This is copied from the offical BS site Make sure to change! */}
-          <div className='mission'>
+          <div className='home-intro--content'>
             <h1>Be Prepared</h1>
-            <h2>Our Mission</h2>
+            <h2 id='mission'>Our Mission</h2>
             <p>The mission of the Boy Scouts of America is to prepare young people to make ethical and moral choices over their lifetimes by instilling in them the values of the Scout Oath and Law.</p>
-            <h2>Scout Law</h2>
+            <h2 id='scout-law'>Scout Law</h2>
             <p>A Scout is trustworthy, loyal, helpful, friendly, courteous, kind, obedient, cheerful, thrifty, brave, clean, and reverent.</p>
-            <h2>Scout Oath</h2>
+            <h2 id='scout-oath'>Scout Oath</h2>
             <p>“On my honor I will do my best to do my duty to God and my country and to obey the Scout Law; to help other people at all times; to keep myself physically strong, mentally awake, and morally straight.”</p>  
           </div>
         
