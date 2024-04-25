@@ -30,19 +30,18 @@ function App() {
         {/* This is copied from the offical BS site Make sure to change! */}
         <div className='container home-intro--all'>
           <h1>Be Prepared</h1>
-
             <div className='home-intro--content'>
               <div className='mission'>
-                <h2>Our Mission</h2>
-                <p>The mission of the Boy Scouts of America is to prepare young people to make ethical and moral choices over their lifetimes by instilling in them the values of the Scout Oath and Law.</p>
+                <h2 className='home-intro--header'>Our Mission</h2>
+                <p className='home-intro--p'>The mission of the Boy Scouts of America is to prepare young people to make ethical and moral choices over their lifetimes by instilling in them the values of the Scout Oath and Law.</p>
               </div>
               <div className='scout-law'>
-                <h2>Scout Law</h2>
-                <p>A Scout is trustworthy, loyal, helpful, friendly, courteous, kind, obedient, cheerful, thrifty, brave, clean, and reverent.</p>
+                <h2 className='home-intro--header'>Scout Law</h2>
+                <p className='home-intro--p'>A Scout is trustworthy, loyal, helpful, friendly, courteous, kind, obedient, cheerful, thrifty, brave, clean, and reverent.</p>
               </div>
               <div className='scout-oath'>
-                <h2 id='scout-oath'>Scout Oath</h2>
-                <p>“On my honor I will do my best to do my duty to God and my country and to obey the Scout Law; to help other people at all times; to keep myself physically strong, mentally awake, and morally straight.”</p>  
+                <h2 className='home-intro--header'>Scout Oath</h2>
+                <p className='home-intro--p'>“On my honor I will do my best to do my duty to God and my country and to obey the Scout Law; to help other people at all times; to keep myself physically strong, mentally awake, and morally straight.”</p>  
               </div>
             </div>
             <figure>
@@ -50,30 +49,31 @@ function App() {
             </figure>
         </div>
       </section>
-    <section className='home-gallary'>
-      <h1>Community Impact</h1>
-      <p>Living by the Scout Oath and helping their community!</p>
-      <figure>
-        <figcaption>
-          <img src={project1}/>
-          <p>Project title</p>
-          <a href=''>Project Details</a>
-        </figcaption>
-      </figure>
-      <figure>
-        <figcaption>
-          <img src={project2}/>
-          <p>Project title</p>
-          <a href=''>Project Details</a>
-        </figcaption>
-      </figure>
-      <figure>
-        <figcaption>
-          <img src={project3}/>
-          <p>Project title</p>
-          <a href=''>Project Details</a>
-        </figcaption>
-      </figure>
+    <section className='home-impact'>
+      <div className='container home-intro--all'>
+        <h1>Community Impact</h1>
+        <p>Living by the Scout Oath and helping their community!</p>
+      </div>
+      <div className='container'>
+        <figure>
+          <figcaption>
+            <img src={project1}/>
+            <p>Project title</p>
+          </figcaption>
+        </figure>
+        <figure>
+          <figcaption>
+            <img src={project2}/>
+            <p>Project title</p>
+          </figcaption>
+        </figure>
+        <figure>
+          <figcaption>
+            <img src={project3}/>
+            <p>Project title</p>
+          </figcaption>
+        </figure>
+      </div>
     </section><section className='home-contact'>
       <h1>Join Us Today!</h1>
         <p>Email: moreno email</p>
