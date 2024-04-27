@@ -260,6 +260,11 @@ figure {
   margin-bottom: 3em;
 }
 
+.home-impact h1 {
+  margin-bottom: .75em;
+  color: #003F87;
+}
+
 .gallery-desc p {
   font-size: 1.25rem;
   letter-spacing: .02em;
@@ -277,7 +282,7 @@ figure {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
- 
+  
 }
 
 @media(min-width: 60rem) {
