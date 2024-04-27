@@ -79,11 +79,17 @@ function App() {
         </div>
     </section>
     <footer>
-    <section className='home-cta'>
-      <h1>Join Us Today!</h1>
-        <p>Email: mamoreno16gb@gmail.com</p>
-        <p>Phone: 317 694 6384</p>
-    </section>
+      <section className='home-cta'>
+        <div className='footer-left'>
+          <h1>Join Us Today!</h1>
+          <p>Email: mamoreno16gb@gmail.com</p>
+          <p>Phone: (317) 694-6384</p>
+        </div>
+        <div className='footer-right'>
+          <p>Troop 227-Indiana 2024 | <a href='https://github.com/moreno-m2698/'>Website created by Michael Moreno</a></p>
+        </div>
+      </section>
+      
     </footer>
     </>
   )
