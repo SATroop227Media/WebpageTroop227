@@ -51,36 +51,39 @@ function App() {
       </section>
     <section className='home-impact'>
         <h1>Impacting the Community at Large</h1>
-        <figure className='gallery-item'>
-          <figcaption>
-            <img src={project1}/>
-            <p>Project title</p>
-            <p>Brief Description</p>
-            <a href='' className='community-button'>Read More</a>
-          </figcaption>
-        </figure>
-        <figure className='gallery-item'>
-          <figcaption>
-            <img src={project2}/>
-            <p>Project title</p>
-            <p>Brief Description</p>
-            <a href='' className='community-button'>Read More</a>
-          </figcaption>
-        </figure>
-        <figure className='gallery-item'>
-          <figcaption>
-            <img src={project3}/>
-            <p>Project title</p>
-            <p>Brief Description</p>
-            <a href='' className='community-button'>Read More</a>
-          </figcaption>
-        </figure>
-    </section>
-    <section className='home-contact'>
-      <h1>Join Us Today!</h1>
-        <p>Email: moreno email</p>
+        <div className='gallery responsive-grid'>
+          <figure className='gallery-item'>
+            <figcaption className='gallery-desc'>
+              <img src={project1}/>
+              <p>Project title</p>
+              <p>Brief Description</p>
+              <a href='' className='gallery-button'>Read More</a>
+            </figcaption>
+          </figure>
+          <figure className='gallery-item'>
+            <figcaption className='gallery-desc'>
+              <img src={project2}/>
+              <p>Project title</p>
+              <p>Brief Description</p>
+              <a href='' className='gallery-button'>Read More</a>
+            </figcaption>
+          </figure>
+          <figure className='gallery-item'>
+            <figcaption className='gallery-desc'>
+              <img src={project3}/>
+              <p>Project title</p>
+              <p>Brief Description</p>
+              <a href='' className='gallery-button'>Read More</a>
+            </figcaption>
+          </figure>
+        </div>
     </section>
     <footer>
+    <section className='home-cta'>
+      <h1>Join Us Today!</h1>
+        <p>Email: mamoreno16gb@gmail.com</p>
+        <p>Phone: 317 694 6384</p>
+    </section>
     </footer>
     </>
   )
