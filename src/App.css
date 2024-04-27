@@ -190,6 +190,12 @@ p {
   margin-bottom: .75em;
 }
 
+.home-intro--content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5em;
+}
+
 .home-intro--header {
   margin-bottom:.3em; 
 }
@@ -226,6 +232,11 @@ p {
 
   .home-intro figure img{
     width: auto;
+  }
+
+  .home-intro--content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
   }
 
 }
