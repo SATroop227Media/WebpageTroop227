@@ -271,10 +271,17 @@ figure {
   margin-bottom: 3em;
 }
 
+
 .home-impact h1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
   margin-bottom: .75em;
   color: #003F87;
+  font-size: 1.7rem;
 }
+
+
 
 .gallery-desc p {
   font-size: 1.25rem;
@@ -296,9 +303,20 @@ figure {
   
 }
 
+@media (min-width: 40rem) {
+  .home-impact h1 {
+    font-size: 2.5rem;
+  }
+}
+
+
 @media(min-width: 60rem) {
   .responsive-grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .home-impact h1 {
+    font-size: 2.5rem;
   }
 }
 
