@@ -2,7 +2,7 @@
 header {
   position: absolute;
   width: 100vw;
-  background-color: #435A48;
+  background-color: #213329;
   padding: .35em;
 }
 
@@ -100,7 +100,7 @@ p {
 .header-title {
   font-weight: 900;
   font-size: 1.5rem;
-  color: #FFE8CD;
+  color: #c8a780;
 }
 
 .header-title span {
@@ -232,3 +232,62 @@ p {
 
 /* home-impact
 ========================== */
+
+figure {
+  margin: 0;
+}
+
+.gallery {
+  max-width: 100rem;
+  margin-left:auto;
+  margin-right:auto;
+  width: 90%;
+}
+
+.responsive-grid {
+  display: grid;
+  gap: 1.5em;
+  grid-template-columns: 1fr;
+}
+
+.gallery-item figcaption {
+  text-align: initial;
+}
+
+
+.home-impact {
+  margin: 0;
+  margin-bottom: 3em;
+}
+
+.gallery-desc p {
+  font-size: 1.25rem;
+  letter-spacing: .02em;
+  margin: 1.1em 0;
+  font-weight: 400;
+}
+
+.gallery-button {
+  text-decoration: none;
+  padding: .5em 0;
+}
+
+@media (min-width: 30rem) {
+  .responsive-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+ 
+}
+
+@media(min-width: 60rem) {
+  .responsive-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+
+footer {
+  background-color: #213329;
+  color: #fff;
+}
