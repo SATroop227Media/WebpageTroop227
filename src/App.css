@@ -181,7 +181,6 @@ p {
   padding: 1.75rem 0;
   text-align:initial;
   color: #4d4d4d; 
-  max-width: 70rem;
 }
 
 .home-intro--all h1 {
@@ -249,7 +248,7 @@ figure {
 }
 
 .gallery {
-  max-width: 100rem;
+  max-width: 100em;
   margin-left:auto;
   margin-right:auto;
   width: 90%;
@@ -324,4 +323,65 @@ figure {
 footer {
   background-color: #213329;
   color: #fff;
+  padding: 2.25em 0;
+}
+
+.home-cta {
+  width: 95%;
+  text-align: left;
+  justify-content: space-between;
+  display: flex;
+  border-bottom: 1px solid #fff;
+  border-top: 1px solid #fff;
+  margin: 0 auto;
+  max-width: 100em;
+  letter-spacing: .02em;
+  line-height: 125%;
+  padding: 2em 0;
+}
+
+
+
+
+.footer-left {
+  width: 55%;
+  gap: .5em;
+}
+
+.footer-left h1{
+  font-size: 1.5rem;
+  margin-bottom: .25em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+}
+
+.footer-left p {
+  font-size: .65rem;
+}
+
+
+.footer-right {
+  display: flex;
+  width: 30%;
+  font-size: .75em;
+}
+
+.footer-right p {
+  font-size: .75rem;
+
+  align-self: flex-end
+}
+.home-cta a {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media (min-width: 60rem) {
+  .footer-right h1{
+    font-size: 2rem;
+  }
+
+  .footer-left p {
+    font-size: 1em;
+  }
 }
