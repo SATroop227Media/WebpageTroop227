@@ -232,3 +232,28 @@ p {
 
 /* home-impact
 ========================== */
+
+figure {
+  margin: 0;
+}
+
+
+
+.home-impact {
+  margin: 3em 0;
+  background-color: rgb(251, 242, 234);
+}
+
+@media (min-width: 30rem) {
+  .gallery-item {
+    width: 50%;
+    float: left;
+  }
+ 
+}
+
+@media(min-width: 60rem) {
+  .gallery-item {
+    width: 33.33%;
+  }
+}

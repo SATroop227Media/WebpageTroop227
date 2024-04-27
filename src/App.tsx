@@ -13,13 +13,13 @@ function App() {
           <img src='https://beascout.scouting.org/wp-content/uploads/2022/06/BSALogo-1.png'/>
           <h1 className='header-title'>Boy Scout Troop 227<span>American Legion Post 205</span></h1>
         </div>
-        <nav>
+        {/* <nav>
           <ul>
             <li><a href=''>Home</a></li>
             <li><a href="">Gallery</a></li>
             <li><a href=''>Contact</a></li>
           </ul>
-        </nav>
+        </nav> */}
     </header>
     <section className="home-banner">
       <div className='container'>
@@ -32,7 +32,7 @@ function App() {
           <h1>Be Prepared</h1>
             <div className='home-intro--content'>
               <div className='mission'>
-                <h2 className='home-intro--header'>Our Mission</h2>
+                <h2 className='home-intro--header'>Scout Mission</h2>
                 <p className='home-intro--p'>The mission of the Boy Scouts of America is to prepare young people to make ethical and moral choices over their lifetimes by instilling in them the values of the Scout Oath and Law.</p>
               </div>
               <div className='scout-law'>
@@ -50,31 +50,33 @@ function App() {
         </div>
       </section>
     <section className='home-impact'>
-      <div className='container home-intro--all'>
-        <h1>Community Impact</h1>
-        <p>Living by the Scout Oath and helping their community!</p>
-      </div>
-      <div className='container'>
-        <figure>
+        <h1>Impacting the Community at Large</h1>
+        <figure className='gallery-item'>
           <figcaption>
             <img src={project1}/>
             <p>Project title</p>
+            <p>Brief Description</p>
+            <a href='' className='community-button'>Read More</a>
           </figcaption>
         </figure>
-        <figure>
+        <figure className='gallery-item'>
           <figcaption>
             <img src={project2}/>
             <p>Project title</p>
+            <p>Brief Description</p>
+            <a href='' className='community-button'>Read More</a>
           </figcaption>
         </figure>
-        <figure>
+        <figure className='gallery-item'>
           <figcaption>
             <img src={project3}/>
             <p>Project title</p>
+            <p>Brief Description</p>
+            <a href='' className='community-button'>Read More</a>
           </figcaption>
         </figure>
-      </div>
-    </section><section className='home-contact'>
+    </section>
+    <section className='home-contact'>
       <h1>Join Us Today!</h1>
         <p>Email: moreno email</p>
     </section>
