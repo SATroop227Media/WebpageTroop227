@@ -55,24 +55,24 @@ function App() {
           <figure className='gallery-item'>
             <figcaption className='gallery-desc'>
               <img src={project1}/>
-              <p>Project title</p>
-              <p>Brief Description</p>
+              <h3>Project title</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer feugiat scelerisque varius morbi enim. Et pharetra pharetra massa massa ultricies mi quis hendrerit dolor. Mi sit amet mauris commodo quis. </p>
               <a href='' className='gallery-button'>Read More</a>
             </figcaption>
           </figure>
           <figure className='gallery-item'>
             <figcaption className='gallery-desc'>
               <img src={project2}/>
-              <p>Project title</p>
-              <p>Brief Description</p>
+              <h3>Project title</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer feugiat scelerisque varius morbi enim. Et pharetra pharetra massa massa ultricies mi quis hendrerit dolor. Mi sit amet mauris commodo quis. </p>
               <a href='' className='gallery-button'>Read More</a>
             </figcaption>
           </figure>
           <figure className='gallery-item'>
             <figcaption className='gallery-desc'>
               <img src={project3}/>
-              <p>Project title</p>
-              <p>Brief Description</p>
+              <h3>Project title</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer feugiat scelerisque varius morbi enim. Et pharetra pharetra massa massa ultricies mi quis hendrerit dolor. Mi sit amet mauris commodo quis. </p>
               <a href='' className='gallery-button'>Read More</a>
             </figcaption>
           </figure>

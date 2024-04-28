@@ -2,7 +2,7 @@
 header {
   position: absolute;
   width: 100%;
-  background-color: #213329;
+  background-color: #3C3B6E;
   padding: .65em;
 }
 
@@ -91,7 +91,14 @@ h2 {
   margin: 0rem;
   font-weight: 700;
   font-size: 1.5rem;
-  color: #003F87;
+  color: #3C3B6E;
+}
+
+h3 {
+  color: #3C3B6E;
+  font-size: 1.25rem;
+  letter-spacing: .02em;
+  font-weight: 500;
 }
 
 p {
@@ -101,7 +108,7 @@ p {
 .header-title {
   font-weight: 900;
   font-size: 1.5rem;
-  color: #c8a780;
+  color: #FEFEFE;
 }
 
 .header-title span {
@@ -142,7 +149,7 @@ p {
   background-size: cover;
   background-position: center;
   padding: 10em 0em;
-  color: #FFF;
+  color: #FEFEFE;
 }
 
 /* .home-banner::after {
@@ -166,27 +173,25 @@ p {
 ==============================*/
 
 .home-intro {
-  background-color: #FFF;
+  background-color: #FEFEFE;
 }
 
 .home-intro figure {
   display: none;
-  margin: 2.5rem 0;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 2.5rem auto 0;
   width: 80%;
 }
 
 
 .home-intro--all {
-  padding: 1.75rem 0;
+  padding: 2rem 0;
   text-align:initial;
   color: #4d4d4d; 
 }
 
 .home-intro--all h1 {
-  border-bottom: 1px solid #003F87;
-  color: #003F87;
+  border-bottom: 1px solid #3C3B6E;
+  color: #3C3B6E;
   margin-bottom: .75em;
 }
 
@@ -267,8 +272,9 @@ figure {
 
 
 .home-impact {
+  background-color: #FEFEFE;
   margin: 0;
-  margin-bottom: 3em;
+  padding: 1rem 0 3rem;
 }
 
 
@@ -277,17 +283,22 @@ figure {
   margin-right: auto;
   width: 95%;
   margin-bottom: .75em;
-  color: #003F87;
+  color: #3C3B6E;
   font-size: 1.7rem;
 }
 
 
 
 .gallery-desc p {
-  font-size: 1.25rem;
+  font-size: 1rem;
   letter-spacing: .02em;
   margin: 1.1em 0;
   font-weight: 400;
+}
+
+
+.gallery-desc a {
+  color: #B42033;
 }
 
 .gallery-button {
@@ -322,8 +333,8 @@ figure {
 
 
 footer {
-  background-color: #213329;
-  color: #fff;
+  background-color: #3C3B6E;
+  color: #FEFEFE;
   padding: 2.25em 0;
 }
 
