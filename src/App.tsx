@@ -10,7 +10,7 @@ function App() {
     <>
       <header>
         <div className='header-logo'>
-          <img src='https://beascout.scouting.org/wp-content/uploads/2022/06/BSALogo-1.png'/>
+          <img src='https://beascout.scouting.org/wp-content/uploads/2022/06/BSALogo-1.png' alt="Official logo of the Boy Scouts of America"/>
           <h1 className='header-title'>Boy Scout Troop 227<span>American Legion Post 205</span></h1>
         </div>
         {/* <nav>
@@ -45,7 +45,7 @@ function App() {
               </div>
             </div>
             <figure>
-              <img src={group}/>
+              <img src={group} alt='Group photo of troop 227'/>
             </figure>
         </div>
       </section>
@@ -53,27 +53,33 @@ function App() {
         <h1>Making a difference in the community</h1>
         <div className='gallery responsive-grid'>
           <figure className='gallery-item'>
-            <figcaption className='gallery-desc'>
-              <img src={project1}/>
-              <h3>Project title</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer feugiat scelerisque varius morbi enim. Et pharetra pharetra massa massa ultricies mi quis hendrerit dolor. Mi sit amet mauris commodo quis. </p>
-              <a href='' className='gallery-button'>Read More</a>
+            <figcaption>
+              <img src={project1} alt='Scouts building playground'/>
+              <div className='gallery-desc'>
+                <h3>Project title</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer feugiat scelerisque varius morbi enim. Et pharetra pharetra massa massa ultricies mi quis hendrerit dolor. Mi sit amet mauris commodo quis. </p>
+                <a href='' className='gallery-button'>Read More</a>
+              </div>
             </figcaption>
           </figure>
           <figure className='gallery-item'>
-            <figcaption className='gallery-desc'>
-              <img src={project2}/>
-              <h3>Project title</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer feugiat scelerisque varius morbi enim. Et pharetra pharetra massa massa ultricies mi quis hendrerit dolor. Mi sit amet mauris commodo quis. </p>
-              <a href='' className='gallery-button'>Read More</a>
+            <figcaption>
+              <img src={project2} alt='Scout infront of donated food'/>
+              <div className='gallery-desc'>
+                <h3>Project title</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer feugiat scelerisque varius morbi enim. Et pharetra pharetra massa massa ultricies mi quis hendrerit dolor. Mi sit amet mauris commodo quis. </p>
+                <a href='' className='gallery-button'>Read More</a>
+              </div>
             </figcaption>
           </figure>
           <figure className='gallery-item'>
-            <figcaption className='gallery-desc'>
-              <img src={project3}/>
-              <h3>Project title</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer feugiat scelerisque varius morbi enim. Et pharetra pharetra massa massa ultricies mi quis hendrerit dolor. Mi sit amet mauris commodo quis. </p>
-              <a href='' className='gallery-button'>Read More</a>
+            <figcaption>
+              <img src={project3} alt='Scout infront of finished clothing racks'/>
+              <div className='gallery-desc'>
+                <h3>Project title</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer feugiat scelerisque varius morbi enim. Et pharetra pharetra massa massa ultricies mi quis hendrerit dolor. Mi sit amet mauris commodo quis. </p>
+                <a href='' className='gallery-button'>Read More</a>
+              </div>
             </figcaption>
           </figure>
         </div>
