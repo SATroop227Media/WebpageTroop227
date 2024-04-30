@@ -1,6 +1,5 @@
 
 header {
-  position: absolute;
   width: 100%;
   background-color: #3C3B6E;
   padding: .65em;
@@ -22,7 +21,7 @@ header {
   margin: 0;
 }
 
-nav ul {
+/* nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -47,7 +46,7 @@ nav a:hover,
 nav a:focus {
   text-decoration: underline;
   color: #ffdbb2;
-}
+} */
 
 @media (min-width: 60rem) {
 
@@ -60,12 +59,12 @@ nav a:focus {
   }
 
   .header-logo {
-    float: left;
+    /* float: left; */
     width: initial;
     gap: 1em;
   }
 
-  nav {
+  /* nav {
     float: right;
     margin: .5em;
     padding-top: .68em;
@@ -73,7 +72,7 @@ nav a:focus {
 
   nav a {
     font-size: 1rem;
-  }
+  } */
 }
 
 /* typography
@@ -131,6 +130,8 @@ p {
 }
 
 
+
+
 @media (min-width: 60rem) {
   .header-title {
     font-size: 2rem;
@@ -152,6 +153,8 @@ p {
   padding: 10em 0em;
   color: #FEFEFE;
 }
+
+
 
 /* .home-banner::after {
   background: radial-gradient(circle, rgba(255,255,255,0) 48%, rgba(0,0,0,1) 100%);
