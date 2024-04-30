@@ -229,7 +229,6 @@ p {
 
 
 
-
 @media (min-width: 40rem) {
   h1 {
     font-size: 2.5rem;
@@ -264,6 +263,17 @@ p {
     grid-template-columns: repeat(3, 1fr);
   }
 
+  .polaroid {
+    transform: rotate(5deg);
+    transition: all 0.35s;
+  }
+  
+  .polaroid:hover {
+    transform: rotate(0deg) !important;
+    transition: all 0.35s;
+  }
+
+
 }
 
 /* home-impact
@@ -293,7 +303,7 @@ figure {
 
 .home-impact {
   background-color: #FEFEFE;
-  margin: 0;
+  margin: 1em 0 0 0;
   padding: 1rem 0 3rem;
 }
 
