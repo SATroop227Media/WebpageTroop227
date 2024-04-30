@@ -47,7 +47,9 @@ function App() {
               </div>
             </div>
             <figure>
-              <img src={group} alt='Group photo of troop 227'/>
+              <div className='polaroid'>
+                <img src={group} alt='Group photo of troop 227'/>
+              </div>
             </figure>
         </div>
       </section>
