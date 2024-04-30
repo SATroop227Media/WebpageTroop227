@@ -120,7 +120,6 @@ p {
 .home-banner--statement {
   font-weight: 500;
   font-size: 2.5rem;
-  margin-top: 2.75rem;
 }
 
 .home-banner--statement span {
@@ -152,18 +151,27 @@ p {
   background-position: center;
   padding: 10em 0em;
   color: #FEFEFE;
+  position: relative;
 }
 
-
-
-/* .home-banner::after {
-  background: radial-gradient(circle, rgba(255,255,255,0) 48%, rgba(0,0,0,1) 100%);
+.home-banner::before {
+  height: 10%;
+  background-image: linear-gradient(to bottom, #111111,rgba(255,255,255,0));
   content: "";
   inset: 0;
   position: absolute;
   z-index: 0;
-  backdrop-filter: blur(1px);
-} */
+}
+
+
+.home-banner::after {
+  /* background: radial-gradient(circle, , ); */
+  background-image: linear-gradient(to top, #FEFEFE,rgba(255,255,255,0),rgba(255,255,255,0),rgba(255,255,255,0));
+  content: "";
+  inset: 0;
+  position: absolute;
+  z-index: 0;
+}
 
 @media (min-width: 60rem) {
   .home-banner {
