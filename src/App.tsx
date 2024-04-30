@@ -50,7 +50,7 @@ function App() {
         </div>
       </section>
     <section className='home-impact'>
-        <h1>Impacting the Community at Large</h1>
+        <h1>Making a difference in the community</h1>
         <div className='gallery responsive-grid'>
           <figure className='gallery-item'>
             <figcaption className='gallery-desc'>
@@ -86,7 +86,7 @@ function App() {
           <p>Phone: (317) 694-6384</p>
         </div>
         <div className='footer-right'>
-          <p>Troop 227-Indiana 2024 | <a href='https://github.com/moreno-m2698/'>Website created by Michael Moreno</a></p>
+          <p>Troop 227-Indiana 2024 | Join us today!</p>
         </div>
       </section>
       
