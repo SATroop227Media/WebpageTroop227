@@ -7,6 +7,9 @@ import './App.css'
 function App() {
 
 
+  //TODO: add aria labels and look at JAWS
+
+
   return (
     <>
       <header>
@@ -58,33 +61,27 @@ function App() {
         <h1>Making a difference in the community</h1>
         <div className='gallery responsive-grid'>
           <figure className='gallery-item'>
-            <figcaption>
-              <img src={project1} alt='Scouts building playground'/>
-              <div className='gallery-desc'>
+            <img src={project1} alt='Scouts building playground'/>
+            <figcaption className='gallery-desc'>
                 <h3>Project title</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer feugiat scelerisque varius morbi enim. Et pharetra pharetra massa massa ultricies mi quis hendrerit dolor. Mi sit amet mauris commodo quis. </p>
                 <a href='' className='gallery-button'>Read More</a>
-              </div>
             </figcaption>
           </figure>
           <figure className='gallery-item'>
-            <figcaption>
-              <img src={project2} alt='Scout infront of donated food'/>
-              <div className='gallery-desc'>
+            <img src={project2} alt='Scout infront of donated food'/>
+            <figcaption className='gallery-desc'>  
                 <h3>Project title</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer feugiat scelerisque varius morbi enim. Et pharetra pharetra massa massa ultricies mi quis hendrerit dolor. Mi sit amet mauris commodo quis. </p>
                 <a href='' className='gallery-button'>Read More</a>
-              </div>
-            </figcaption>
+            </figcaption >
           </figure>
           <figure className='gallery-item'>
-            <figcaption>
-              <img src={project3} alt='Scout infront of finished clothing racks'/>
-              <div className='gallery-desc'>
+            <img src={project3} alt='Scout infront of finished clothing racks'/>
+            <figcaption className='gallery-desc'>
                 <h3>Project title</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer feugiat scelerisque varius morbi enim. Et pharetra pharetra massa massa ultricies mi quis hendrerit dolor. Mi sit amet mauris commodo quis. </p>
                 <a href='' className='gallery-button'>Read More</a>
-              </div>
             </figcaption>
           </figure>
         </div>

@@ -279,10 +279,6 @@ p {
 /* home-impact
 ========================== */
 
-figure {
-  margin: 0;
-}
-
 .gallery {
   max-width: 100em;
   margin-left:auto;
@@ -296,17 +292,25 @@ figure {
   grid-template-columns: 1fr;
 }
 
+.gallery-item {
+  margin: 0;
+  position: relative;
+}
+
+.gallery-item img {
+  height: 100%;
+  object-fit: cover;
+}
+
 .gallery-item figcaption {
   text-align: initial;
 }
-
 
 .home-impact {
   background-color: #FEFEFE;
   margin: 1em 0 0 0;
   padding: 1rem 0 3rem;
 }
-
 
 .home-impact h1 {
   margin-left: auto;
@@ -317,11 +321,30 @@ figure {
   font-size: 1.7rem;
 }
 
+.gallery-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  text-align: center;
+  z-index: 1;
+  padding: 1em;
+  left:0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.65);
+  
+}
+
+
 .gallery-desc h3{
   margin-top: 1.25em;
+  
 }
 
 .gallery-desc p {
+  display: none;
   font-size: 1rem;
   letter-spacing: .02em;
   margin: .5em 0;
@@ -356,6 +379,14 @@ figure {
 @media(min-width: 60rem) {
   .responsive-grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .gallery-desc {
+    text-align: left;
+  }
+
+  .gallery-desc p {
+    display: initial;
   }
 
   .home-impact h1 {
