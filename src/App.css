@@ -226,6 +226,9 @@ a {
 }
 
 .polaroid {
+  display: none;
+  margin: 2.5rem auto 0;
+  width: 80%;
   background: #dfdfdf;
   padding: 1rem;
   box-shadow: 0 1rem 1.2rem rgba(0,0,0,0.2);
@@ -246,7 +249,9 @@ a {
 
 @media (min-width: 55rem) {
 
-
+  .polaroid {
+    display: block;
+  }
   .home-intro figure {
     display: block;
   }
