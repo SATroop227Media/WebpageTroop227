@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <header>
-        <div className='header-logo' role="logo">
+        <div className='header-logo' aria-roledescription="logo">
           <img src='https://beascout.scouting.org/wp-content/uploads/2022/06/BSALogo-1.png' alt="Official logo of the Boy Scouts of America"/>
           <h1 className='header-title'>Boy Scout Troop 227<span>American Legion Post 205</span></h1>
         </div>
@@ -26,13 +26,13 @@ function App() {
         </nav> */}
     </header>
     <div>
-    <section className="home-banner">
+    <section className="home-banner" aria-label="Our Impact">
       <div className='container'>
         <h1 className='home-banner--statement'>Impacting the community<span>by shaping the youth of Johnson County for 60 years.</span></h1>
       </div>
     </section>
     </div>
-      <section className='home-intro'>
+      <section className='home-intro' aria-label="Be prepared">
         {/* This is copied from the offical BS site Make sure to change! */}
         <div className='container home-intro--all'>
           <h1>Be Prepared</h1>
@@ -55,7 +55,7 @@ function App() {
             </div>
         </div>
       </section>
-    <section className='home-impact'>
+    <section className='home-impact' aria-label='making a difference'>
         <h1>Making a difference in the community</h1>
         <ul className='gallery responsive-grid' aria-label="community projects by troop 227">
           <li>
