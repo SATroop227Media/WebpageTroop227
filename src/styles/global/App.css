@@ -150,7 +150,7 @@ a {
 ===================================*/
   
 .home-banner {
-  background-image: url(./assets/banner1.jpg);
+  background-image: url(../../assets/banner1.jpg);
   background-size: cover;
   background-position: center;
   padding: 10em 0em;
