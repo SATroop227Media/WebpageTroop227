@@ -1,5 +1,4 @@
-import * as React from "react";
-import * as ReactDOM from "react-dom";
+import * as ReactDOM from "react-dom/client";
 import {
   createBrowserRouter,
   RouterProvider,
@@ -15,13 +14,15 @@ const router = createBrowserRouter([
     element: <Root />,
     children: [
       {
-        path: "team",
+        path: "projects",
         element: <Projects />,
       },
     ],
   },
 ]);
 
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <RouterProvider router={router} />
-);
+function RouterFunction() {
+    return <RouterProvider router={router} />
+}
+
+export default RouterFunction
