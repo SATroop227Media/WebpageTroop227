@@ -7,7 +7,7 @@ import {
 
 import Root from "./pages/Root.tsx";
 import Projects from './pages/Projects.tsx'
-// import Team, { teamLoader } from "./routes/team";
+
 
 const router = createBrowserRouter([
   {
