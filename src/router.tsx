@@ -3,14 +3,16 @@ import {
   RouterProvider,
 } from "react-router-dom";
 
-import Root from "./pages/Main.tsx";
+import Main from "./pages/Main.tsx";
 import Projects from './pages/Projects.tsx'
+import ErrorPage from "./pages/Error.tsx"
 
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Root />,
+    element: <Main />,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: "projects",
