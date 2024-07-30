@@ -1,8 +1,8 @@
-import Root from './pages/Root'
+import Main from './pages/Main'
 
 function App() {
   return (
-    <Root />
+    <Main />
   )
 }
 

@@ -1,10 +1,9 @@
-import * as ReactDOM from "react-dom/client";
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
 
-import Root from "./pages/Root.tsx";
+import Root from "./pages/Main.tsx";
 import Projects from './pages/Projects.tsx'
 
 
@@ -21,8 +20,8 @@ const router = createBrowserRouter([
   },
 ]);
 
-function RouterFunction() {
+function Router() {
     return <RouterProvider router={router} />
 }
 
-export default RouterFunction
+export default Router
