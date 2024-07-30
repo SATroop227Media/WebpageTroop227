@@ -4,10 +4,9 @@ import {
 } from "react-router-dom";
 
 import MainPage from "./pages/MainPage.tsx"
+import ErrorPage from "./pages/ErrorPage.tsx"
 import Main from "./routes/main.tsx";
 import Projects from './routes/projects.tsx'
-import ErrorPage from "./pages/ErrorPage.tsx"
-
 
 const router = createBrowserRouter([
   {
@@ -16,7 +15,7 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       {
-        path: "/",
+        index: true, 
         element: <Main />
       },
       {
