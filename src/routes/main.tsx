@@ -6,37 +6,37 @@ import '../styles/global/App.css'
 
 function Root() {
     return (
-        <>
+      <>
         <div>
-        <section className="home-banner" aria-label="Our Impact">
-          <div className='container'>
-            <h1 className='home-banner--statement'>Impacting the community<span>by shaping the youth of Johnson County for 60 years.</span></h1>
-          </div>
-        </section>
-        </div>
-          <section className='home-intro' aria-label="Be prepared">
-            {/* This is copied from the offical BS site Make sure to change! */}
-            <div className='container home-intro--all'>
-              <h1>Be Prepared</h1>
-                <div className='home-intro--content'>
-                  <div className='mission'>
-                    <h2 className='home-intro--header'>Scout Mission</h2>
-                    <p className='home-intro--p'>The mission of the Boy Scouts of America is to prepare young people to make ethical and moral choices over their lifetimes by instilling in them the values of the Scout Oath and Law.</p>
-                  </div>
-                  <div className='scout-law'>
-                    <h2 className='home-intro--header'>Scout Law</h2>
-                    <p className='home-intro--p'>A Scout is trustworthy, loyal, helpful, friendly, courteous, kind, obedient, cheerful, thrifty, brave, clean, and reverent.</p>
-                  </div>
-                  <div className='scout-oath'>
-                    <h2 className='home-intro--header'>Scout Oath</h2>
-                    <p className='home-intro--p'>“On my honor I will do my best to do my duty to God and my country and to obey the Scout Law; to help other people at all times; to keep myself physically strong, mentally awake, and morally straight.”</p>  
-                  </div>
-                </div>
-                <div className='polaroid'>
-                  <img src={group} alt='A group photo of Troop 227 at a camp site'/>
-                </div>
+          <section className="home-banner" aria-label="Our Impact">
+            <div className='container'>
+              <h1 className='home-banner--statement'>Impacting the community<span>by shaping the youth of Johnson County for 60 years.</span></h1>
             </div>
           </section>
+        </div>
+        <section className='home-intro' aria-label="Be prepared">
+          {/* This is copied from the offical BS site Make sure to change! */}
+          <div className='container home-intro--all'>
+            <h1>Be Prepared</h1>
+              <div className='home-intro--content'>
+                <div className='mission'>
+                  <h2 className='home-intro--header'>Scout Mission</h2>
+                  <p className='home-intro--p'>The mission of the Boy Scouts of America is to prepare young people to make ethical and moral choices over their lifetimes by instilling in them the values of the Scout Oath and Law.</p>
+                </div>
+                <div className='scout-law'>
+                  <h2 className='home-intro--header'>Scout Law</h2>
+                  <p className='home-intro--p'>A Scout is trustworthy, loyal, helpful, friendly, courteous, kind, obedient, cheerful, thrifty, brave, clean, and reverent.</p>
+                </div>
+                <div className='scout-oath'>
+                  <h2 className='home-intro--header'>Scout Oath</h2>
+                  <p className='home-intro--p'>“On my honor I will do my best to do my duty to God and my country and to obey the Scout Law; to help other people at all times; to keep myself physically strong, mentally awake, and morally straight.”</p>  
+                </div>
+              </div>
+              <div className='polaroid'>
+                <img src={group} alt='A group photo of Troop 227 at a camp site'/>
+              </div>
+          </div>
+        </section>
         <section className='home-impact' aria-label='making a difference'>
             <h1>Making a difference in the community</h1>
             <ul className='gallery responsive-grid' aria-label="community projects by troop 227">
@@ -72,19 +72,7 @@ function Root() {
               </li>
             </ul>
         </section>
-        <footer>
-          <section className='home-cta'>
-            <div className='footer-left' aria-label='contact information'>
-              <h1>Join Us Today!</h1>
-              <p>Email: mamoreno16gb@gmail.com</p>
-              <p>Phone: (317) 694-6384</p>
-            </div>
-            <div className='footer-right' aria-label='call to action'>
-              <p>Troop 227-Indiana 2024 | Join us today!</p>
-            </div>
-          </section>
-        </footer>
-        </>
+      </>
     )
 }
 
