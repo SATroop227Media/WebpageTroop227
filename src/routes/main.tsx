@@ -7,19 +7,6 @@ import '../styles/global/App.css'
 function Root() {
     return (
         <>
-          <header>
-            <div className='header-logo' aria-roledescription="logo">
-              <img src='https://beascout.scouting.org/wp-content/uploads/2022/06/BSALogo-1.png' alt="Official logo of the Boy Scouts of America"/>
-              <h1 className='header-title'>Boy Scout Troop 227<span>American Legion Post 205</span></h1>
-            </div>
-            {/* <nav>
-              <ul>
-                <li><a href=''>Home</a></li>
-                <li><a href="">Gallery</a></li>
-                <li><a href=''>Contact</a></li>
-              </ul>
-            </nav> */}
-        </header>
         <div>
         <section className="home-banner" aria-label="Our Impact">
           <div className='container'>
