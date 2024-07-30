@@ -3,23 +3,29 @@ import {
   RouterProvider,
 } from "react-router-dom";
 
-import Main from "./pages/Main.tsx";
-import Projects from './pages/Projects.tsx'
-import ErrorPage from "./pages/Error.tsx"
+import MainPage from "./pages/MainPage.tsx"
+import Main from "./routes/main.tsx";
+import Projects from './routes/projects.tsx'
+import ErrorPage from "./pages/ErrorPage.tsx"
 
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Main />,
+    element: <MainPage />,
     errorElement: <ErrorPage />,
     children: [
       {
-        path: "projects",
-        element: <Projects />,
+        path: "/",
+        element: <Main />
       },
-    ],
+      {
+        path: "/projects",
+        element: <Projects />
+      }
+    ]
   },
+  
 ]);
 
 function Router() {

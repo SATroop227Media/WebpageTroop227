@@ -4,7 +4,7 @@ import project3 from '../assets/project3.jpg'
 import group from '../assets/group.jpg'
 import '../styles/global/App.css'
 
-function Main() {
+function Root() {
     return (
         <>
           <header>
@@ -101,4 +101,4 @@ function Main() {
     )
 }
 
-export default Main
+export default Root
