@@ -24,10 +24,11 @@ url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=R
 }
 
 html {
-  font-weight: 300;
-  font-weight: 300;
-  color: var(--color-text)
+  --page-background-color: var(--color-white-base)
 
+  font-weight: 300;
+  color: var(--color-text);
+  background-color: var(--page-background-color);
 }
 
 body {

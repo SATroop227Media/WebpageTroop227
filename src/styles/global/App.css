@@ -181,10 +181,6 @@ a {
 /*home-intro
 ==============================*/
 
-.home-intro {
-  background-color: #FEFEFE;
-}
-
 .home-intro figure {
   display: none;
   margin: 2.5rem auto 0;
@@ -301,7 +297,6 @@ ul {
 
 
 .home-impact {
-  background-color: #FEFEFE;
   margin: 1em 0 0 0;
   padding: 1rem 0 3rem;
 }
