@@ -7,7 +7,7 @@
 
 /*This is the font used by official bsa (serif font)*/
 @import url("./variables/colors.css");
-@import url("./typepography.css");
+@import url("./typography.css");
 @import url("./variables/sizes.css");
 
 * {
