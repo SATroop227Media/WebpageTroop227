@@ -80,13 +80,12 @@ nav a:focus {
 
 h1 {
   font-weight: 700;
-  font-family: 'Roboto Slab', serif;
   font-size: 2rem;
   margin: 0rem;
 }
 
 h2 {
-  font-family: 'Roboto Slab', serif;
+  /* font-family: 'Roboto Slab', serif; */
   margin: 0rem;
   font-weight: 700;
   font-size: 1.5rem;
@@ -136,45 +135,6 @@ a {
 
   .home-banner--statement {
     font-size: 3.75rem;
-  }
-}
-
-
-/* home-banner 
-===================================*/
-  
-.home-banner {
-  background-image: url(../../assets/banner1.jpg);
-  background-size: cover;
-  background-position: center;
-  padding: 10em 0em;
-  position: relative;
-}
-
-.home-banner::before {
-  height: 10%;
-  background-image: linear-gradient(to bottom, #111111,rgba(255,255,255,0));
-  content: "";
-  inset: 0;
-  position: absolute;
-  z-index: 0;
-}
-
-
-.home-banner::after {
-  /* background: radial-gradient(circle, , ); */
-  background-image: linear-gradient(to top, #FEFEFE,rgba(255,255,255,0),rgba(255,255,255,0),rgba(255,255,255,0));
-  content: "";
-  inset: 0;
-  position: absolute;
-  z-index: 0;
-}
-
-@media (min-width: 60rem) {
-  .home-banner {
-    height: 100vh;
-    /* This is what allows us to dynamically center the home-banner--statement */
-    padding-top: 37vh;
   }
 }
 

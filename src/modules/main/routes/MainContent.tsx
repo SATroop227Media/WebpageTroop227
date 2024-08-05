@@ -2,18 +2,21 @@ import project1 from '../../../assets/project1.jpg'
 import project2 from '../../../assets/project2.jpg'
 import project3 from '../../../assets/project3.jpg'
 import group from '../../../assets/group.jpg'
+
 import '../../../styles/global/App.css'
+import '../../../styles/components/mainhero.css'
 
 function Root() {
     return (
       <>
         <div>
-          <section className="home-banner" aria-label="Our Impact">
+          <section className="home-hero" aria-label="Our Impact">
             <div className='container'>
               <h1 className='home-banner--statement'>Impacting the community<span>by shaping the youth of Johnson County for 60 years.</span></h1>
             </div>
           </section>
         </div>
+
         <section className='home-intro' aria-label="Be prepared">
           {/* This is copied from the offical BS site Make sure to change! */}
           <div className='container home-intro--all'>
@@ -37,6 +40,7 @@ function Root() {
               </div>
           </div>
         </section>
+
         <section className='home-impact' aria-label='making a difference'>
             <h1>Making a difference in the community</h1>
             <ul className='gallery responsive-grid' aria-label="community projects by troop 227">
@@ -72,6 +76,7 @@ function Root() {
               </li>
             </ul>
         </section>
+
       </>
     )
 }

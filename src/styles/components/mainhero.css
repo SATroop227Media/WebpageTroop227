@@ -1,0 +1,36 @@
+@import url(../global/typography.css);
+
+.home-hero {
+    font-family: var(--font-family-hero);
+    background-image: url(../../assets/Campsite.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10em 0em;
+    position: relative;
+  }
+  
+  /* .home-hero::before {
+    height: 10%;
+    background-image: linear-gradient(to bottom, #111111,rgba(255,255,255,0));
+    content: "";
+    inset: 0;
+    position: absolute;
+    z-index: 0;
+  }
+  
+  
+  .home-hero::after {
+    background-image: linear-gradient(to top, #FEFEFE,rgba(255,255,255,0),rgba(255,255,255,0),rgba(255,255,255,0));
+    content: "";
+    inset: 0;
+    position: absolute;
+    z-index: 0;
+  } */
+  
+  @media (min-width: 60rem) {
+    .home-hero {
+      height: 100vh;
+      /* This is what allows us to dynamically center the home-banner--statement */
+      padding-top: 37vh;
+    }
+  }
