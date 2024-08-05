@@ -5,8 +5,8 @@ import {
 
 import MainIndex from "./modules/main/pages/MainIndex.tsx"
 import ErrorPage from "./modules/ErrorPage.tsx"
-import Main from "./routes/main.tsx";
-import Projects from './routes/projects.tsx'
+import Main from "./modules/main/routes/main.tsx";
+import Projects from './modules/main/routes/projects.tsx'
 
 const router = createBrowserRouter([
   {
