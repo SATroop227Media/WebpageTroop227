@@ -1,4 +1,4 @@
-import Main from './modules/main/routes/main'
+import Main from './modules/main/routes/MainContent'
 
 function App() {
   return (
