@@ -127,7 +127,7 @@
 
     --color-selection-text: var(--color-primary-900);
     --color-selection-background: var(--color-primary-200);
-    
+
     --color-ui-gradient: linear-gradient(
         45deg,
         var(--color-primary-100),
