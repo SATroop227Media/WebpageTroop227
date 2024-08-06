@@ -1,8 +1,9 @@
 @import url(../global/typography.css);
+@import url(../global/variables/colors.css);
 
 .home-hero {
     font-family: var(--font-family-hero);
-    background-image: url(../../assets/Campsite.jpg);
+    background-image: url(../../assets/Stock1.jpg);
     background-size: cover;
     background-position: center;
     padding: 10em 0em;
@@ -16,16 +17,16 @@
     inset: 0;
     position: absolute;
     z-index: 0;
-  }
+  } */
   
   
   .home-hero::after {
-    background-image: linear-gradient(to top, #FEFEFE,rgba(255,255,255,0),rgba(255,255,255,0),rgba(255,255,255,0));
+    background-image: var(--color-hero-gradient);
     content: "";
     inset: 0;
     position: absolute;
     z-index: 0;
-  } */
+  }
   
   @media (min-width: 60rem) {
     .home-hero {

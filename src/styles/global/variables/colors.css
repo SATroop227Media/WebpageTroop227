@@ -124,6 +124,11 @@
         var(--color-primary-100),
         var(--color-primary-200)
     );
+    --color-hero-gradient: linear-gradient(
+        to top,
+        color-mix(in srgb, var(--color-background), transparent 0%),
+        color-mix(in srgb, var(--color-background), transparent 100%) 30%
+    );
     --color-ui-gradient-transparent: linear-gradient(
         45deg,
         color-mix(in srgb, var(--color-primary-200), transparent 10%),
