@@ -1,12 +1,13 @@
 :root {
-    --color-primary-base: rgb(60, 59, 110);
+    --color-primary-base: rgb(47, 58, 44);
+    --color-secondary-base: rgb(60, 59, 110);
     --color-black-base: rgb(0,0,0);
     --color-white-base: rgb(255, 255, 255);
     --color-gray-base: rgb(143,143,143);
 
     /* mixins for making gradients from palette */
     --color-primary-0: color-mix(
-        in srgb,
+        in srgb, /*specifies the interpolation method to mix the colors */
         var(--color-primary-base),
         var(--color-black-base) 90%
     );
@@ -111,9 +112,9 @@
 
 
     --color-header-background: var(--color-primary-100);
-    --color-text: var(--color-neutral-900);
-    --color-background: var(--color-primary-0);
-    --color-h2: var(--color-neutral-900);
+    --color-text: var(--color-neutral-0);
+    --color-background: var(--color-neutral-900);
+    --color-h2: var(--color-neutral-0);
     --color-scrollbar-body: var(--color-primary-600);
     --color-scrollbar-track: transparent;
     --color-selection-text: var(--color-primary-900);
