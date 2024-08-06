@@ -8,28 +8,30 @@ export default function AppNav() {
 
     //delay is a number, value is a generic
 
-    const [isHidden, setIsHidden] = useState<boolean>(false);
-    const [scrollPosition, setScrollPosition] = useState<number>(0);
 
-    const handleScroll = () => {
+    const [lastScrollTop, setLastScrollTop] = useState<number>(0);
+    const [scrollDirection, setScrollDirection] = useState<number>(0); // 'up' or 'down'
+
+    const handleScroll = (): void => {
         const scrollTop = window.scrollY;
-        setScrollPosition(scrollTop)
-        console.log("Scroll Position")
-    }
-
-    const [debounceValue, setDebounceValue] = useState(isHidden);
-    const delay = 1000 / 60;
-
-    useEffect(() => {
-
-
-        
-        window.addEventListener('scroll',handleScroll);
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, [])
     
+        if (scrollTop > lastScrollTop) {
+            console.log('down')
+          setScrollDirection(-1);
+        } else if (scrollTop < lastScrollTop) {
+            console.log('up')
+          setScrollDirection(1);
+        }
+    
+        setLastScrollTop(scrollTop);
+      };
+    
+      useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+          window.removeEventListener('scroll', handleScroll);
+        };
+      }, [lastScrollTop]);
 
     // useEffect(() => {
     //     const timeout = setTimeout(() => {
@@ -40,7 +42,7 @@ export default function AppNav() {
     // }, [isHidden, delay])
 
     return (
-        <header className={"header-nav".concat("", (isHidden ? " hide": ""))}>
+        <header className={"header-nav"}>
             <div className='header-nav__logo' aria-roledescription="logo">
               <img src='https://beascout.scouting.org/wp-content/uploads/2022/06/BSALogo-1.png' alt="Official logo of the Boy Scouts of America"/>
               <h1 className='header-nav__title'>Boy Scout Troop 227<span>American Legion Post 205</span></h1>
