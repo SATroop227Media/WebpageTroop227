@@ -1,9 +1,20 @@
-import Main from './modules/main/routes/MainContent'
+import {useRef, useState} from "react";
+import MainContent from './modules/main/routes/MainContent';
 
 function App() {
+
+  const [scrollHandleCount, setScrollHandleCount] = useState<number>(0);
+  const [
+    scrollDebounceHandleCount,
+    setScrollDebounceHandleCount
+  ] = useState<number>(0);
+  const timerDebounceRef = useRef();
+
   return (
-    <Main />
+    <MainContent />
   )
 }
+
+
 
 export default App

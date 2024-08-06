@@ -6,7 +6,7 @@ import group from '../../../assets/group.jpg'
 import '../../../styles/global/App.css'
 import '../../../styles/components/mainhero.css'
 
-function Root() {
+function MainContent() {
     return (
       <>
         <div>
@@ -81,4 +81,4 @@ function Root() {
     )
 }
 
-export default Root
+export default MainContent
