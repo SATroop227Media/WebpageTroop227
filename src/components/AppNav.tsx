@@ -12,7 +12,10 @@ export default function AppNav() {
     const [lastScrollTop, setLastScrollTop] = useState<number>(0);
     const [scrollDirection, setScrollDirection] = useState<number>(0); // 'up' or 'down'
 
-    const eventDebounce = (cb: any, delay: number = 1000 / 60) => {
+    // 1000 / 60 This is the default value that we will use
+    //TODO: double check tomorrow
+
+    const eventDebounce = (cb: any, delay: number = 5000) => {
         let timeout = setTimeout(cb, delay);
 
         return () => {
@@ -23,7 +26,7 @@ export default function AppNav() {
             }, timeout)
         }
     }
-    
+
     const handleScroll = (): void => {
         const scrollTop = window.scrollY;
     
