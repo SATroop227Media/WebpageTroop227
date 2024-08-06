@@ -12,6 +12,18 @@ export default function AppNav() {
     const [lastScrollTop, setLastScrollTop] = useState<number>(0);
     const [scrollDirection, setScrollDirection] = useState<number>(0); // 'up' or 'down'
 
+    const eventDebounce = (cb: any, delay: number = 1000 / 60) => {
+        let timeout = setTimeout(cb, delay);
+
+        return () => {
+            clearTimeout(timeout);
+        
+            timeout = setTimeout(() => {
+                cb();
+            }, timeout)
+        }
+    }
+    
     const handleScroll = (): void => {
         const scrollTop = window.scrollY;
     
@@ -22,24 +34,17 @@ export default function AppNav() {
             console.log('up')
           setScrollDirection(1);
         }
-    
         setLastScrollTop(scrollTop);
       };
     
       useEffect(() => {
-        window.addEventListener('scroll', handleScroll);
+        window.addEventListener('scroll', eventDebounce(handleScroll));
         return () => {
-          window.removeEventListener('scroll', handleScroll);
+          window.removeEventListener('scroll', eventDebounce(handleScroll));
         };
       }, [lastScrollTop]);
 
-    // useEffect(() => {
-    //     const timeout = setTimeout(() => {
-    //         setDebounceValue(isHidden);
-    //     }, delay);
-        
-    //     return () => clearTimeout(timeout);
-    // }, [isHidden, delay])
+
 
     return (
         <header className={"header-nav"}>
@@ -62,5 +67,5 @@ export default function AppNav() {
     )
     
     
-
 }
+
