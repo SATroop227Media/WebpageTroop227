@@ -11,16 +11,6 @@
     color: var(--color-neutral-900);
   }
   
-  /* .home-hero::before {
-    height: 10%;
-    background-image: linear-gradient(to bottom, #111111,rgba(255,255,255,0));
-    content: "";
-    inset: 0;
-    position: absolute;
-    z-index: 0;
-  } */
-  
-  
   .home-hero::after {
     background-image: var(--color-hero-gradient);
     content: "";
@@ -35,4 +25,10 @@
       /* This is what allows us to dynamically center the home-banner--statement */
       padding-top: 37vh;
     }
+  }
+
+  .home-hero__content {
+    --color-hero-content: var(--color-header-background);
+
+    background-color: var(--color-hero-content);
   }
