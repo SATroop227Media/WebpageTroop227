@@ -2,7 +2,7 @@ import { useEffect, useState, UIEvent } from 'react';
 
 import { Link } from "react-router-dom"
 import "../styles/global/nav.css"
-
+import BWLogo from "../assets/logo-bw.png"
 
 export default function AppNav() {
     const [lastScrollTop, setLastScrollTop] = useState<number>(0);
@@ -50,7 +50,7 @@ export default function AppNav() {
     return (
         <header className={"header-nav".concat(" ", scrollDirection >= 0 ? "" : "hide")}>
             <div className='header-nav__logo' aria-roledescription="logo">
-              <img src='https://beascout.scouting.org/wp-content/uploads/2022/06/BSALogo-1.png' alt="Official logo of the Boy Scouts of America"/>
+              <img src={BWLogo} alt="Official logo of the Boy Scouts of America"/>
               <h1 className='header-nav__title'>Boy Scout Troop 227<span>American Legion Post 205</span></h1>
             </div>
             <nav>
