@@ -11,11 +11,12 @@ export default function AppNav() {
 
     const [lastScrollTop, setLastScrollTop] = useState<number>(0);
     const [scrollDirection, setScrollDirection] = useState<number>(0); // 'up' or 'down'
+    
 
     // 1000 / 60 This is the default value that we will use
     //TODO: double check tomorrow
 
-    const eventDebounce = (cb: any, delay: number = 5000) => {
+    const eventDebounce = (cb: any, delay: number = 1000 / 60) => {
         let timeout = setTimeout(cb, delay);
 
         return () => {
@@ -50,7 +51,7 @@ export default function AppNav() {
 
 
     return (
-        <header className={"header-nav"}>
+        <header className={"header-nav".concat(" ", scrollDirection === 1 ? "" : "hide")}>
             <div className='header-nav__logo' aria-roledescription="logo">
               <img src='https://beascout.scouting.org/wp-content/uploads/2022/06/BSALogo-1.png' alt="Official logo of the Boy Scouts of America"/>
               <h1 className='header-nav__title'>Boy Scout Troop 227<span>American Legion Post 205</span></h1>

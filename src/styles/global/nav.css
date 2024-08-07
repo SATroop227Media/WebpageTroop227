@@ -1,58 +1,63 @@
 header {
-    /* position: fixed;
-    top:0;
-    right: 0;
-    left: 0;
-    z-index: 100; */
-    /* taking inspiration from: https://ncx.com/ */
+  position: fixed;
+  top:0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+  transition: ease .5s;
+  /* taking inspiration from: https://ncx.com/ */
 
-    backdrop-filter: blur(10px);
-    background: rgba(38, 38, 36, .6);
-    border-bottom: 1px solid rgba(92, 92, 89, .5);
-    width: 100%;
-    padding: .65em;
-  }
+  backdrop-filter: blur(10px);
+  background: rgba(38, 38, 36, .6);
+  border-bottom: 1px solid rgba(92, 92, 89, .5);
+  width: 100%;
+  padding: .65em;
+}
   
-  .header-nav__logo {
-    display: grid;
-    grid-template-columns: max-content 1fr;
-    gap: .45em;
-    text-align: left;
-    width: 100%;
+header.hide {
+  transform: translateY(-100%);
+}
+
+.header-nav__logo {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: .45em;
+  text-align: left;
+  width: 100%;
+}
+
+.header-nav__logo img {
+  width: 3rem;
+}
+
+.header-nav__logo h1 {
+  margin: 0;
+}
+
+.header-nav__title {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.header-nav__title span {
+  font-weight: 450;
+  display: block;
+  font-size: .75em;
+}
+
+@media (min-width: 60rem) {
+
+  header {
+    padding: 1em;
   }
-  
+
   .header-nav__logo img {
-    width: 3rem;
-  }
-  
-  .header-nav__logo h1 {
-    margin: 0;
+    width: 4em;
   }
 
-  .header-nav__title {
-    font-weight: 900;
-    font-size: 1.5rem;
+  .header-nav__logo {
+    /* float: left; */
+    width: initial;
+    gap: 1em;
   }
-  
-  .header-nav__title span {
-    font-weight: 450;
-    display: block;
-    font-size: .75em;
-  }
-  
-  @media (min-width: 60rem) {
-  
-    header {
-      padding: 1em;
-    }
-  
-    .header-nav__logo img {
-      width: 4em;
-    }
-  
-    .header-nav__logo {
-      /* float: left; */
-      width: initial;
-      gap: 1em;
-    }
-  }
+}
