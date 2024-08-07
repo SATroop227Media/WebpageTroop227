@@ -17,19 +17,20 @@ export default function AppNav() {
     //TODO: double check tomorrow
 
     const eventDebounce = (cb: any, delay: number = 1000 / 60) => {
-        let timeout = setTimeout(cb, delay);
+        let timeout = setTimeout(cb, delay); //Performs my function after a delay
 
         return () => {
-            clearTimeout(timeout);
+            clearTimeout(timeout); //clears out timeout variable
         
-            timeout = setTimeout(() => {
+            timeout = setTimeout(() => { //reinstantiates a new callback to timeout var to complete cycle
                 cb();
             }, timeout)
         }
     }
 
     const handleScroll = (): void => {
-        const scrollTop = window.scrollY;
+
+        const scrollTop = window.scrollY; //returns number of pixels that the window is scrolled vertially
     
         if (scrollTop > lastScrollTop) {
             console.log('down')
@@ -38,7 +39,7 @@ export default function AppNav() {
             console.log('up')
           setScrollDirection(1);
         }
-        setLastScrollTop(scrollTop);
+        setLastScrollTop(scrollTop); //resets last scroll amount
       };
     
       useEffect(() => {
