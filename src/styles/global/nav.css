@@ -1,3 +1,5 @@
+@import url(../global//variables/colors.css);
+
 header {
   position: fixed;
   top:0;
@@ -10,6 +12,7 @@ header {
   backdrop-filter: blur(10px);
   background: rgba(38, 38, 36, .6);
   border-bottom: 1px solid rgba(92, 92, 89, .5);
+  color: var(--color-neutral-1000);
   width: 100%;
   padding: .65em;
 }
