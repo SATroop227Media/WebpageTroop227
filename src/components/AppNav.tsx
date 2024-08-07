@@ -50,16 +50,16 @@ export default function AppNav() {
     return (
         <header className={"header-nav".concat(" ", scrollDirection >= 0 ? "" : "hide")}>
             <div className='header-nav__logo' aria-roledescription="logo">
-              <img src={WLogo} alt="Official logo of the Boy Scouts of America"/>
+              <img src="https://www.scouting.org/wp-content/uploads/2022/06/bsa-logo-hero-1.png" alt="Boy Scout Logo White Transparent"/>
               <h1 className='header-nav__title'>Boy Scout Troop 227<span>American Legion Post 205</span></h1>
             </div>
-            <nav>
-                <ul>
-                    <li>
-                        <Link to={`/`}>Home</Link>
+            <nav className='header-nav__nav'>
+                <ul className='header-nav__ul'>
+                    <li className='header-nav__li'>
+                        <Link className={"header-nav__link"} to={`/`}>Home</Link>
                     </li>
                     <li>
-                        <Link to={`/projects`}>Projects</Link>
+                        <Link className={"header-nav__link"} to={`/projects`}>Projects</Link>
                     </li>
                 </ul>
             </nav>
