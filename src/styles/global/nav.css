@@ -1,7 +1,7 @@
 @import url(../global//variables/colors.css);
 
 header {
-  --header-element-padding: var(--global-layout-element-padding-x);
+  --header-element-padding: var(--global-layout-padding-x);
 
   position: fixed;
   top:0;
@@ -27,6 +27,8 @@ header.hide {
 }
 
 .troop227-header__logo {
+  padding:  1.5rem 0rem 1.5rem var(--header-element-padding);
+  width: auto;
   display: flex;
 }
 
@@ -40,19 +42,17 @@ header.hide {
   margin: 0;
 }
 
-.troop227-header__title {
-  font-weight: 900;
-  font-size: 1.5rem;
-}
-
 .troop227-header__title span {
-  font-weight: 450;
   display: block;
-  font-size: .75em;
 }
 
 .troop227-header__list {
   display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 1rem 2.25rem;
 }
 
 .troop227-header__link {
@@ -61,26 +61,11 @@ header.hide {
 }
 
 .troop227-header__nav {
+  padding:  1.5rem var(--header-element-padding) 1.5rem 0;
   pointer-events: all;
   display: flex;
   flex-direction: row;
   align-items: normal;
-  padding: 1.5rem;
-}
-
-@media (min-width: 60rem) {
-
-  header {
-    padding: 1em;
-  }
-
-  .troop227-header__logo img {
-    width: 4em;
-  }
-
-  .troop227-header__logo {
-    /* float: left; */
-    width: initial;
-    gap: 1em;
-  }
+  width: auto;
+  justify-content: flex-end;
 }
