@@ -111,7 +111,7 @@
     );
 
 
-    --color-header-background: var(--color-primary-100);
+    --color-header-background: rgba(38, 38, 36, .6);
     --color-background: var(--color-neutral-900);
     --color-hero-gradient: linear-gradient(
         to top,

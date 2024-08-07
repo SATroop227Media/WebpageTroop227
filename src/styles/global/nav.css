@@ -10,7 +10,9 @@ header {
   /* taking inspiration from: https://ncx.com/ */
 
   backdrop-filter: blur(10px);
-  background: rgba(38, 38, 36, .6);
+  background: var(--color-header-background);
+
+  display: flex;
   border-bottom: 1px solid rgba(92, 92, 89, .5);
   color: var(--color-neutral-1000);
   width: 100%;
@@ -22,14 +24,14 @@ header.hide {
 }
 
 .header-nav__logo {
-  display: grid;
-  grid-template-columns: max-content 1fr;
+  display: flex;
   gap: .45em;
   text-align: left;
-  width: 100%;
 }
 
 .header-nav__logo img {
+  display: block;
+  margin:0 auto;
   width: 3rem;
 }
 
@@ -46,6 +48,15 @@ header.hide {
   font-weight: 450;
   display: block;
   font-size: .75em;
+}
+
+.header-nav__ul {
+  display: flex;
+}
+
+.header-nav__link {
+  text-decoration: none;
+  color: var(--color-neutral-1000)
 }
 
 @media (min-width: 60rem) {
