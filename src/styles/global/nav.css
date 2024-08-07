@@ -31,10 +31,18 @@ header.hide {
   width: 50%;
   display: flex;
   justify-content: flex-start;
+  gap: 1rem .75rem;
+}
+
+.troop227-header__title {
+  font-size: 1rem;
+  text-align: left;
 }
 
 .troop227-header__title span {
   display: block;
+  font-size: .85em;
+  color: var(--color-neutral-600);
 }
 
 .troop227-header__nav {

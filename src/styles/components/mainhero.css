@@ -8,6 +8,7 @@
     background-position: center;
     padding: 10em 0em;
     position: relative;
+    color: var(--color-neutral-900);
   }
   
   /* .home-hero::before {
