@@ -28,36 +28,13 @@ header.hide {
 
 .troop227-header__logo {
   padding:  1.5rem 0rem 1.5rem var(--header-element-padding);
-  width: auto;
+  width: 50%;
   display: flex;
-}
-
-.troop227-header__logo img {
-  display: block;
-  margin:0 auto;
-  width: 3rem;
-}
-
-.troop227-header__logo h1 {
-  margin: 0;
+  justify-content: flex-start;
 }
 
 .troop227-header__title span {
   display: block;
-}
-
-.troop227-header__list {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  gap: 1rem 2.25rem;
-}
-
-.troop227-header__link {
-  text-decoration: none;
-  color: var(--color-neutral-1000)
 }
 
 .troop227-header__nav {
@@ -66,6 +43,45 @@ header.hide {
   display: flex;
   flex-direction: row;
   align-items: normal;
-  width: auto;
+  width: 50%;
   justify-content: flex-end;
+}
+
+.troop227-header__list {
+  align-items: center;
+  gap: 1rem 2.25rem;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.troop227-header__list-item {
+  position: relative;
+}
+
+.troop227-header__link {
+  text-decoration: none;
+  color: var(--color-neutral-1000);
+  padding-block: .25rem;
+}
+
+.troop227-header__link::after {
+  border-top: .1875rem solid;
+  content: "";
+  inset: auto auto -.1875rem 0;
+  position: absolute;
+  scale: 0 1;
+  transform-origin: left center;
+  transition: scale var(--global-transition-duration-short) cubic-bezier(.01,.17,.16,.52);
+  width: 100%;
+}
+
+.troop227-header__link:hover {
+  position: relative;
+  text-decoration: none;
+}
+
+.troop227-header__link:hover::after {
+  scale: 1 1;
 }
