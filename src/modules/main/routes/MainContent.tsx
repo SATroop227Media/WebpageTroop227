@@ -9,13 +9,12 @@ import '../../../styles/components/mainhero.css'
 function MainContent() {
     return (
       <>
-        <div>
-          <section className="home-hero" aria-label="Our Impact">
-            <div className='container'>
-              <h1 className='home-banner--statement'>Impacting the community<span>by shaping the youth of Johnson County for 60 years.</span></h1>
-            </div>
-          </section>
-        </div>
+        <section className="home-hero" aria-label="Our Impact">
+          <article className='home-hero__content'>
+            <h1 className='home-hero__header'>The Scouts of Johnson County</h1>
+            <p className='home-hero__typography'>Troop 227 extends the values of Scouting to the Johnson County area by providing youth an environment to have fun and foster growth. It has been active in the Johnson County area for over 60 years.</p>
+          </article>
+        </section>
 
         <section className='home-intro' aria-label="Be prepared">
           {/* This is copied from the offical BS site Make sure to change! */}
