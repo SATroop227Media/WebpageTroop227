@@ -54,7 +54,7 @@ export default function AppNav() {
               <h1 className='troop227-header__title'>Boy Scout Troop 227<span>American Legion Post 205</span></h1>
             </div>
             <nav className='troop227-header__nav'>
-                <ul className='troop227-header__list'>
+                <ul className='troop227-header__list' aria-label='Site Links'>
                     <li className='troop227-header__list-item'>
                         <Link className={"troop227-header__link"} to={`/`}>Home</Link>
                     </li>

@@ -42,3 +42,14 @@ img {
   margin: 0 auto;
   max-width: 70rem;
 }
+
+:root {
+  --global-layout-padding-x: 2rem;
+  --global-layout-header-element-height: 5.375rem;
+}
+
+@media screen and (min-width: 64em) {
+  :root {
+    --global-layout-padding-x: 4rem;
+  }
+}

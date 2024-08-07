@@ -1,22 +1,25 @@
 @import url(../global//variables/colors.css);
 
 header {
+  --header-element-padding: var(--global-layout-element-padding-x);
+
   position: fixed;
   top:0;
   right: 0;
   left: 0;
-  z-index: 100;
+
   transition: ease .5s;
   /* taking inspiration from: https://ncx.com/ */
 
   backdrop-filter: blur(10px);
   background: var(--color-header-background);
-
-  display: flex;
   border-bottom: 1px solid rgba(92, 92, 89, .5);
   color: var(--color-neutral-1000);
+
+  height: var(--global-layout-header-element-height);
+  display: flex;
   width: 100%;
-  padding: .65em;
+  z-index: 100;
 }
   
 header.hide {
@@ -25,8 +28,6 @@ header.hide {
 
 .troop227-header__logo {
   display: flex;
-  gap: .45em;
-  text-align: left;
 }
 
 .troop227-header__logo img {
@@ -57,6 +58,14 @@ header.hide {
 .troop227-header__link {
   text-decoration: none;
   color: var(--color-neutral-1000)
+}
+
+.troop227-header__nav {
+  pointer-events: all;
+  display: flex;
+  flex-direction: row;
+  align-items: normal;
+  padding: 1.5rem;
 }
 
 @media (min-width: 60rem) {
