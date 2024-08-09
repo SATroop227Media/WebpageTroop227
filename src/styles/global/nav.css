@@ -7,9 +7,7 @@ header {
   top:0;
   right: 0;
   left: 0;
-
   transition: ease .5s;
-  /* taking inspiration from: https://ncx.com/ */
 
   backdrop-filter: blur(10px);
   background: var(--color-header-background);
@@ -92,4 +90,8 @@ header.hide {
 
 .troop227-header__link:hover::after {
   scale: 1 1;
+}
+
+[data-desktop-only] {
+  display: none;
 }

@@ -53,7 +53,12 @@ export default function AppNav() {
               <img src="https://www.scouting.org/wp-content/uploads/2022/06/bsa-logo-hero-1.png" alt="Boy Scout Logo White Transparent"/>
               <h1 className='troop227-header__title'>Boy Scout Troop 227<span>American Legion Post 205</span></h1>
             </div>
-            <nav className='troop227-header__nav'>
+            <div className='troop227-header__nav troop-header__nav-button'>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="32" height="32" viewBox="0 0 32 32">
+                <path stroke="#fff" stroke-width="1.5" d="M32 7.683H0m32 7.734H0m32 7.733H0"></path>
+              </svg>
+            </div>
+            <nav className='troop227-header__nav' data-desktop-only="">
                 <ul className='troop227-header__list'>
                     <li className='troop227-header__list-item'>
                         <Link className={"troop227-header__link"} to={`/`}>Home</Link>
