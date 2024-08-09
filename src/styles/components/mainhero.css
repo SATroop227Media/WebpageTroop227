@@ -3,7 +3,6 @@
 
 .home-hero {
     font-family: var(--font-family-hero);
-    background-image: url(../../assets/Stock1.jpg);
     background-size: cover;
     background-position: center;
     padding: 10em 0em;

@@ -2,6 +2,7 @@ import project1 from '../../../assets/project1.jpg'
 import project2 from '../../../assets/project2.jpg'
 import project3 from '../../../assets/project3.jpg'
 import group from '../../../assets/group.jpg'
+import stock1 from '../../../assets/Stock1.jpg'
 
 import '../../../styles/global/App.css'
 import '../../../styles/components/mainhero.css'
@@ -14,6 +15,9 @@ function MainContent() {
             <h1 className='home-hero__header'>The Scouts of Johnson County</h1>
             <p className='home-hero__typography'>Troop 227 extends the values of Scouting to the Johnson County area by providing youth an environment to have fun and foster growth. It has been active in the Johnson County area for over 60 years.</p>
           </article>
+          <div className='home-hero__background'>
+            <img src={stock1}/>
+          </div>
         </section>
 
         <section className='home-intro' aria-label="Be prepared">
