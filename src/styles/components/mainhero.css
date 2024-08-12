@@ -2,11 +2,15 @@
 @import url(../global/variables/colors.css);
 
 .home-hero {
+    --hero-height: 100svh;
+
     font-family: var(--font-family-hero);
     display: flex;
+    align-items: flex-end;
+    justify-content: center;
     background-size: cover;
     background-position: center;
-    /* overflow: hidden; */
+    overflow: hidden;
     position: relative;
     color: var(--color-neutral-900);
 }
@@ -19,17 +23,3 @@
   inset: 0;
 }
 
-
-.home-hero::after {
-  background-image: var(--color-hero-gradient);
-  content: "";
-  inset: 0;
-  position: absolute;
-  z-index: 0;
-}
-
-.home-hero__content {
-  --color-hero-content: var(--color-header-background);
-
-  background-color: var(--color-hero-content);
-}
