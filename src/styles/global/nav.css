@@ -34,9 +34,9 @@ header.hide {
 }
 
 .troop227-header__title {
+  align-self: center;
   font-size: 1rem;
   text-align: left;
-  padding-block: .6rem;
 }
 
 .troop227-header__title span {
