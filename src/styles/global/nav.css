@@ -114,6 +114,7 @@ header.hide {
 
   .troop227-header__logo {
     flex-direction: row;
+    gap: 1rem .75rem;
   }
 
   .troop227-header__title {
