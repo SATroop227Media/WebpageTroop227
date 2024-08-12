@@ -54,12 +54,12 @@ export default function AppNav() {
               <h1 className='troop227-header__title' data-mobile-only="">Troop 227</h1>
               <h1 className='troop227-header__title' data-desktop-only="">Boy Scout Troop 227<span>American Legion Post 205</span></h1>
             </div>
-            <div className='troop227-header__nav troop227-header__nav-button'>
+            {/* <div className='troop227-header__nav troop227-header__nav-button' data-mobile-only="">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="32" height="32" viewBox="0 0 32 32">
                 <path stroke="#fff" strokeWidth="1.5" d="M32 7.683H0m32 7.734H0m32 7.733H0"></path>
               </svg>
-            </div>
-            <nav className='troop227-header__nav' data-desktop-only="">
+            </div> */}
+            <nav className='troop227-header__nav'>
                 <ul className='troop227-header__list'>
                     <li className='troop227-header__list-item'>
                         <Link className={"troop227-header__link"} to={`/`}>Home</Link>

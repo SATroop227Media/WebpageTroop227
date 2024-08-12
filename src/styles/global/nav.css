@@ -39,24 +39,16 @@ header.hide {
   height: 50px;
 }
 
-.troop227-header__logo h1 {
-  font-size: .65rem;
-}
-
-@media (min-width: 12.5rem) {
-
-}
-
 .troop227-header__title {
   align-self: center;
-  font-size: 1rem;
+  font-size: .65rem;
   text-align: left;
 }
 
 .troop227-header__title span {
-  display: none;
   font-size: .85em;
   color: var(--color-neutral-600);
+  display: block;
 }
 
 .troop227-header__nav {
@@ -111,6 +103,21 @@ header.hide {
   display: none;
 }
 
-.troop227-header__nav-button {
-  cursor: pointer;
+@media (min-width: 600px) {
+  [data-desktop-only] {
+    display: block;
+  }
+
+  [data-mobile-only] {
+    display: none;
+  }
+
+  .troop227-header__logo {
+    flex-direction: row;
+  }
+
+  .troop227-header__title {
+    font-size: 1rem;
+  }
+
 }
