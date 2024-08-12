@@ -51,7 +51,8 @@ export default function AppNav() {
         <header className={"troop227-header".concat(" ", scrollDirection >= 0 ? "" : "hide")}>
             <div className='troop227-header__logo' aria-roledescription="logo">
               <img src="https://www.scouting.org/wp-content/uploads/2022/06/bsa-logo-hero-1.png" alt="Boy Scout Logo White Transparent"/>
-              <h1 className='troop227-header__title'>Boy Scout Troop 227<span>American Legion Post 205</span></h1>
+              <h1 className='troop227-header__title' data-mobile-only="">Troop 227</h1>
+              <h1 className='troop227-header__title' data-desktop-only="">Boy Scout Troop 227<span>American Legion Post 205</span></h1>
             </div>
             <div className='troop227-header__nav troop227-header__nav-button'>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="32" height="32" viewBox="0 0 32 32">
