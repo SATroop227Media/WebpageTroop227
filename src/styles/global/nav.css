@@ -29,8 +29,22 @@ header.hide {
 .troop227-header__logo {
   padding:  .75rem 0rem .75rem var(--header-element-padding);
   display: flex;
+  align-items: center;
   justify-content: flex-start;
-  gap: 1rem .75rem;
+  flex-direction: column;
+}
+
+.troop227-header__logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.troop227-header__logo h1 {
+  font-size: .65rem;
+}
+
+@media (min-width: 12.5rem) {
+
 }
 
 .troop227-header__title {
