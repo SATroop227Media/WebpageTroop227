@@ -6,6 +6,7 @@ import stock1 from '../../../assets/Stock1.jpg'
 
 import '../../../styles/global/App.css'
 import '../../../styles/components/mainhero.css'
+import '../../../styles/components/maincontent.css'
 
 function MainContent() {
     return (
@@ -20,7 +21,7 @@ function MainContent() {
           </div>
         </section>
 
-        <section className='home-intro' aria-label="Be prepared">
+        <section className='home-content' aria-label="Be prepared">
           {/* This is copied from the offical BS site Make sure to change! */}
           <div className='container home-intro--all'>
             <h1>Be Prepared</h1>

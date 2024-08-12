@@ -3,11 +3,22 @@
 
 .home-hero {
     font-family: var(--font-family-hero);
+    display: flex;
     background-size: cover;
     background-position: center;
+    /* overflow: hidden; */
     position: relative;
     color: var(--color-neutral-900);
 }
+
+.home-hero__background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  inset: 0;
+}
+
 
 .home-hero::after {
   background-image: var(--color-hero-gradient);
