@@ -55,7 +55,7 @@ export default function AppNav() {
             </div>
             <div className='troop227-header__nav troop227-header__nav-button'>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="32" height="32" viewBox="0 0 32 32">
-                <path stroke="#fff" stroke-width="1.5" d="M32 7.683H0m32 7.734H0m32 7.733H0"></path>
+                <path stroke="#fff" strokeWidth="1.5" d="M32 7.683H0m32 7.734H0m32 7.733H0"></path>
               </svg>
             </div>
             <nav className='troop227-header__nav' data-desktop-only="">

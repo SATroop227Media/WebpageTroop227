@@ -15,9 +15,11 @@ header {
   color: var(--color-neutral-1000);
 
   height: var(--global-layout-header-element-height);
+
   display: flex;
   width: 100%;
   z-index: 100;
+  justify-content: space-between;
 }
   
 header.hide {
@@ -26,7 +28,6 @@ header.hide {
 
 .troop227-header__logo {
   padding:  1.5rem 0rem 1.5rem var(--header-element-padding);
-  width: 50%;
   display: flex;
   justify-content: flex-start;
   gap: 1rem .75rem;
@@ -35,10 +36,11 @@ header.hide {
 .troop227-header__title {
   font-size: 1rem;
   text-align: left;
+  padding-block: .6rem;
 }
 
 .troop227-header__title span {
-  display: block;
+  display: none;
   font-size: .85em;
   color: var(--color-neutral-600);
 }
@@ -49,7 +51,6 @@ header.hide {
   display: flex;
   flex-direction: row;
   align-items: normal;
-  width: 50%;
   justify-content: flex-end;
 }
 
