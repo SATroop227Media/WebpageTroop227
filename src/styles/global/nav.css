@@ -95,3 +95,7 @@ header.hide {
 [data-desktop-only] {
   display: none;
 }
+
+.troop227-header__nav-button {
+  cursor: pointer;
+}
