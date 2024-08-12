@@ -27,7 +27,7 @@ header.hide {
 }
 
 .troop227-header__logo {
-  padding:  1.5rem 0rem 1.5rem var(--header-element-padding);
+  padding:  .75rem 0rem .75rem var(--header-element-padding);
   display: flex;
   justify-content: flex-start;
   gap: 1rem .75rem;

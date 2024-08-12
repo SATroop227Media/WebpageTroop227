@@ -45,7 +45,7 @@ img {
 }
 
 :root {
-  --global-layout-padding-x: 2rem;
+  --global-layout-padding-x: 1rem;
   --global-layout-header-element-height: 5.375rem;
 }
 
