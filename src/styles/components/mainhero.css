@@ -8,26 +8,18 @@
     padding: 10em 0em;
     position: relative;
     color: var(--color-neutral-900);
-  }
-  
-  .home-hero::after {
-    background-image: var(--color-hero-gradient);
-    content: "";
-    inset: 0;
-    position: absolute;
-    z-index: 0;
-  }
-  
-  @media (min-width: 60rem) {
-    .home-hero {
-      height: 100vh;
-      /* This is what allows us to dynamically center the home-banner--statement */
-      padding-top: 37vh;
-    }
-  }
+}
 
-  .home-hero__content {
-    --color-hero-content: var(--color-header-background);
+.home-hero::after {
+  background-image: var(--color-hero-gradient);
+  content: "";
+  inset: 0;
+  position: absolute;
+  z-index: 0;
+}
 
-    background-color: var(--color-hero-content);
-  }
+.home-hero__content {
+  --color-hero-content: var(--color-header-background);
+
+  background-color: var(--color-hero-content);
+}
