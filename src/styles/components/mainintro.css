@@ -1,0 +1,8 @@
+.home-intro {
+    display: flex;
+    flex-direction: column;
+    padding-inline: var(--global-layout-padding-gutter);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    gap: 1rem;
+}
