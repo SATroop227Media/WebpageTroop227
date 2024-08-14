@@ -6,6 +6,7 @@ import stock1 from '../../../assets/Stock1.jpg'
 
 import '../../../styles/global/App.css'
 import '../../../styles/components/mainhero.css'
+import '../../../styles/components/mainimpact.css'
 import '../../../styles/components/maincontent.css'
 
 function MainContent() {
