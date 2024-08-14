@@ -39,25 +39,25 @@ function MainContent() {
           </p>
         </section>
 
-        <section className='home-content' aria-label="Be prepared">
+        <section className='home-values' aria-label="Be prepared">
           {/* This is copied from the offical BS site Make sure to change! */}
           <div>
             <img src={eagle2}/>
           </div>
-          <div className='home-content__wrapper'>
+          <div className='home-values__wrapper'>
             <h1>Be Prepared</h1>
-              <div className='home-content__content'>
-                <div className='mission'>
-                  <h2 className='home-content__header'>Scout Mission</h2>
-                  <p className='home-intro--p'>The mission of the Boy Scouts of America is to prepare young people to make ethical and moral choices over their lifetimes by instilling in them the values of the Scout Oath and Law.</p>
+              <div className='home-values__content'>
+                <div className='home-values__container'>
+                  <h2 className='home-values__h2'>Scout Mission</h2>
+                  <p className='home-values__p'>The mission of the Boy Scouts of America is to prepare young people to make ethical and moral choices over their lifetimes by instilling in them the values of the Scout Oath and Law.</p>
                 </div>
-                <div className='scout-law'>
-                  <h2 className='home-content__header'>Scout Law</h2>
-                  <p className='home-intro--p'>A Scout is trustworthy, loyal, helpful, friendly, courteous, kind, obedient, cheerful, thrifty, brave, clean, and reverent.</p>
+                <div className='home-values__container'>
+                  <h2 className='home-values__h2'>Scout Law</h2>
+                  <p className='home-values__p'>A Scout is trustworthy, loyal, helpful, friendly, courteous, kind, obedient, cheerful, thrifty, brave, clean, and reverent.</p>
                 </div>
-                <div className='scout-oath'>
-                  <h2 className='home-content__header'>Scout Oath</h2>
-                  <p className='home-intro--p'>“On my honor I will do my best to do my duty to God and my country and to obey the Scout Law; to help other people at all times; to keep myself physically strong, mentally awake, and morally straight.”</p>  
+                <div className='home-values__container'>
+                  <h2 className='home-values__h2'>Scout Oath</h2>
+                  <p className='home-values__p'>“On my honor I will do my best to do my duty to God and my country and to obey the Scout Law; to help other people at all times; to keep myself physically strong, mentally awake, and morally straight.”</p>  
                 </div>
               </div>
               <div className='polaroid'>
