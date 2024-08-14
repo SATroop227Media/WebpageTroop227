@@ -17,6 +17,10 @@
     padding: 10rem 0;
 }
 
+.home-hero::before {
+  background: linear-gradient(106deg, );
+}
+
 .home-hero__content {
   display: flex;
   flex-direction: column;

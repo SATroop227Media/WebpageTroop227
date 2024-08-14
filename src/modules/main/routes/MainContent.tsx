@@ -14,7 +14,7 @@ function MainContent() {
         <section className="home-hero" aria-label="Our Impact">
           <article className='home-hero__content'>
             <h1 className='home-hero__header'>Creating the leaders of tomorrow by fostering the youth of today!</h1>
-            <p className='home-hero__typography'>For over 60 years, Troop 227 has been active Johnson County. We seek to instill the values and mission of Scouting into young men and women to create leaders with impact!</p>
+            <p className='home-hero__typography'>For over 60 years, Troop 227 has been active Johnson County and bringing about change. We seek to instill the values and mission of Scouting into young men and women to create leaders with impact!</p>
           </article>
           <div className='home-hero__background'>
             <img src={stock1}/>
