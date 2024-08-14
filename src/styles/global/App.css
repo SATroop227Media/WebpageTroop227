@@ -8,16 +8,6 @@
 }
 
 
-.home-intro--all {
-  padding: 2rem 0;
-  text-align:initial;
-}
-
-.home-intro--all h1 {
-  border-bottom: 1px solid #B42033;
-  margin-bottom: .75em;
-}
-
 .home-intro--content {
   display: grid;
   grid-template-columns: 1fr;
