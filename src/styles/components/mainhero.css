@@ -28,7 +28,8 @@
 }
 
 .home-hero__header {
-
+  font-size: 2.25rem;
+  font-weight: 300;
 }
 
 .home-hero__background {
