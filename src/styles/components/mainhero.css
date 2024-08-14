@@ -22,13 +22,19 @@
 }
 
 .home-hero::before {
-  background: linear-gradient(106deg, );
+  background: linear-gradient(106deg, var(--color-neutral-200) 16.84%, rgba(39,45,60,.53) 56.05%,rgba(39,45,60,0) 98.07%);
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
 }
 
 .home-hero__content {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  z-index: 1;
 }
 
 .home-hero__header {
