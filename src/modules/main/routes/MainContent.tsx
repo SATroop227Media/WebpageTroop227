@@ -21,6 +21,45 @@ function MainContent() {
           </div>
         </section>
 
+        <section className='home-impact' aria-label='making a difference'>
+          <h2>See our Impact!</h2>
+          <p>Troop 227 aids in community development by volunteering and by giving youth a safe space to grow and foster their values. 
+            Across Johnson County you can find where our young leaders have left their mark through the love for their community and fpr scouting.
+          </p>
+          <ul className='gallery responsive-grid' aria-label="community projects by troop 227">
+            <li>
+              <figure className='gallery-item' aria-labelledby='project-1'>
+                <img src={project1} alt="Troop 227 scout and adult leaders measuring dimensions of a children's playground"/>
+                <figcaption className='gallery-desc'>
+                    <h3 id='project-1'>Project 1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer feugiat scelerisque varius morbi enim. Et pharetra pharetra massa massa ultricies mi quis hendrerit dolor. Mi sit amet mauris commodo quis. </p>
+                    <a href='' className='gallery-button'>Read More</a>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure className='gallery-item' aria-labelledby='project-2'>
+                <img src={project2} alt='Scout and his grandfather standing in front of food that was donated for his Eagle project'/>
+                <figcaption className='gallery-desc'>  
+                    <h3 id='project-2'>Project 2</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer feugiat scelerisque varius morbi enim. Et pharetra pharetra massa massa ultricies mi quis hendrerit dolor. Mi sit amet mauris commodo quis. </p>
+                    <a href='' className='gallery-button'>Read More</a>
+                </figcaption >
+              </figure>
+            </li>
+            <li>
+              <figure className='gallery-item' aria-labelledby='project-3'>
+                <img src={project3} alt='Scout standing infront of clothing racks created for his Eagle project'/>
+                <figcaption className='gallery-desc'>
+                    <h3 id='project-3'>Project 3</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer feugiat scelerisque varius morbi enim. Et pharetra pharetra massa massa ultricies mi quis hendrerit dolor. Mi sit amet mauris commodo quis. </p>
+                    <a href='' className='gallery-button'>Read More</a>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </section>
+
         <section className='home-content' aria-label="Be prepared">
           {/* This is copied from the offical BS site Make sure to change! */}
           <div className='container home-intro--all'>
@@ -44,43 +83,6 @@ function MainContent() {
               </div>
           </div>
         </section>
-
-        <section className='home-impact' aria-label='making a difference'>
-            <h1>Making a difference in the community</h1>
-            <ul className='gallery responsive-grid' aria-label="community projects by troop 227">
-              <li>
-                <figure className='gallery-item' aria-labelledby='project-1'>
-                  <img src={project1} alt="Troop 227 scout and adult leaders measuring dimensions of a children's playground"/>
-                  <figcaption className='gallery-desc'>
-                      <h3 id='project-1'>Project 1</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer feugiat scelerisque varius morbi enim. Et pharetra pharetra massa massa ultricies mi quis hendrerit dolor. Mi sit amet mauris commodo quis. </p>
-                      <a href='' className='gallery-button'>Read More</a>
-                  </figcaption>
-                </figure>
-              </li>
-              <li>
-                <figure className='gallery-item' aria-labelledby='project-2'>
-                  <img src={project2} alt='Scout and his grandfather standing in front of food that was donated for his Eagle project'/>
-                  <figcaption className='gallery-desc'>  
-                      <h3 id='project-2'>Project 2</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer feugiat scelerisque varius morbi enim. Et pharetra pharetra massa massa ultricies mi quis hendrerit dolor. Mi sit amet mauris commodo quis. </p>
-                      <a href='' className='gallery-button'>Read More</a>
-                  </figcaption >
-                </figure>
-              </li>
-              <li>
-                <figure className='gallery-item' aria-labelledby='project-3'>
-                  <img src={project3} alt='Scout standing infront of clothing racks created for his Eagle project'/>
-                  <figcaption className='gallery-desc'>
-                      <h3 id='project-3'>Project 3</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer feugiat scelerisque varius morbi enim. Et pharetra pharetra massa massa ultricies mi quis hendrerit dolor. Mi sit amet mauris commodo quis. </p>
-                      <a href='' className='gallery-button'>Read More</a>
-                  </figcaption>
-                </figure>
-              </li>
-            </ul>
-        </section>
-
       </>
     )
 }
