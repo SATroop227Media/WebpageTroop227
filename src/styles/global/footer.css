@@ -2,7 +2,7 @@ footer {
     position: relative;
     display: flex;
     background-color: var(--color-neutral-0);
-    padding-block: 6rem;
+    padding-block: 5rem;
     padding-inline: 2rem;
 }
 
