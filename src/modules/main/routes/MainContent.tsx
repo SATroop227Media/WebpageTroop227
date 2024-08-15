@@ -21,7 +21,7 @@ function MainContent() {
             <p className='home-hero__description'>For over 60 years, Troop 227 has been active in Johnson County and bringing about positive change. We seek to instill the values and mission of Scouting into the young men and women by teaching skills and lessons to last a life time!</p>
           </article>
           <div className='home-hero__background'>
-            <img src={stock1}/>
+            <img src={stock1} alt='Point of view shot of a parade of scouts as they proceed up a trail'/>
           </div>
         </section>
 
