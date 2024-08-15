@@ -5,6 +5,8 @@
     padding: 1rem;
     box-shadow: 0 1rem 1.2rem rgba(0,0,0,0.2);
   }
+
+
   
   @media (min-width: 60rem) {
   
@@ -12,12 +14,12 @@
       width: auto;
     }
   
-    .polaroid {
+    .polaroid-skewed {
       transform: rotate(5deg);
       transition: all 0.35s;
     }
     
-    .polaroid:hover {
+    .polaroid-skewed:hover {
       transform: rotate(0deg) !important;
       transition: all 0.35s;
     }

@@ -38,7 +38,7 @@ function MainContent() {
           <p>
             We sincerely hope that you and your family consider becoming involved with Scouting and that you contact one of our leaders if you're interested in joining.
           </p>
-          <div className='polaroid'>
+          <div className='polaroid polaroid-skewed'>
             <img src={group}/>
           </div>
         </section>
@@ -70,21 +70,21 @@ function MainContent() {
           </p>
           <ul className='home-impact__list responsive-grid' aria-label="community projects by troop 227">
             <li className=''>
-              <figure className='home-impact__list-item' aria-labelledby='project-1'>
+              <figure className='home-impact__list-item polaroid' aria-labelledby='project-1'>
                 <img src={project1} alt="Troop 227 scout and adult leaders measuring dimensions of a children's playground"/>
                 <figcaption className='gallery-desc'>
                 </figcaption>
               </figure>
             </li>
             <li>
-              <figure className='home-impact__list-item' aria-labelledby='project-2'>
+              <figure className='home-impact__list-item polaroid' aria-labelledby='project-2'>
                 <img src={project2} alt='Scout and his grandfather standing in front of food that was donated for his Eagle project'/>
                 <figcaption className='gallery-desc'>  
                 </figcaption >
               </figure>
             </li>
             <li>
-              <figure className='home-impact__list-item' aria-labelledby='project-3'>
+              <figure className='home-impact__list-item polaroid' aria-labelledby='project-3'>
                 <img src={project3} alt='Scout standing infront of clothing racks created for his Eagle project'/>
                 <figcaption className='gallery-desc'>
                 </figcaption>
