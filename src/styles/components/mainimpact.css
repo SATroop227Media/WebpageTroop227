@@ -1,3 +1,6 @@
 .home-impact {
-    padding: 2rem var(--global-layout-padding-gutter)
+    padding: 2rem var(--global-layout-padding-gutter);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }

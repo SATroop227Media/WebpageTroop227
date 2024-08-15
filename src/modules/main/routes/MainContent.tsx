@@ -17,7 +17,7 @@ function MainContent() {
       <>
         <section className="home-hero" aria-label="Our Impact">
           <article className='home-hero__content'>
-            <h1 className='home-hero__header'>Creating the leaders of tomorrow by fostering the youth of today!</h1>
+            <h1 className='home-hero__header'>Creating the leaders of tomorrow by fostering the youth of today  </h1>
             <p className='home-hero__description'>For over 60 years, Troop 227 has been active in Johnson County and bringing about positive change. We seek to instill the values and mission of Scouting into the young men and women by teaching skills and lessons to last a life time!</p>
           </article>
           <div className='home-hero__background'>
@@ -26,7 +26,7 @@ function MainContent() {
         </section>
 
         <section className='home-intro'>
-          <h2>Come be a part of Troop 227!</h2>
+          <h2>Come be a part</h2>
           <p>
             Troop 227 began when it was chartered in __ and has been serving scouts in the Johnson County area ever since. 
             We are a part of the Pathfinder District within Indiana's Cross Roads of America Council and conduct our activities primarily in Southern Indiana. 
@@ -39,33 +39,27 @@ function MainContent() {
           <p>
             We sincerely hope that you and your family consider becoming involved with Scouting and that you contact one of our leaders if you're interested in joining.
           </p>
-          <div>
+          <div className='polaroid'>
             <img src={group}/>
           </div>
         </section>
 
         <section className='home-values' aria-label="Be prepared">
-          <div className='home-values__background'>
-            <img src={trail1}/>
-          </div>
-          <article className='home-values__wrapper'>
+          <article className='home-values__content'>
             <h2>Be Prepared</h2>
-              <div className='home-values__content'>
-                <div className='home-values__container'>
-                  <h2 className='home-values__h2'>Scout Mission</h2>
-                  <p className='home-values__p'>The mission of the Boy Scouts of America is to prepare young people to make ethical and moral choices over their lifetimes by instilling in them the values of the Scout Oath and Law.</p>
+              <div className='home-values__cards-content'>
+                <div className='home-values__card'>
+                  <h3>Scout Mission</h3>
+                  <p>The mission of the Boy Scouts of America is to prepare young people to make ethical and moral choices over their lifetimes by instilling in them the values of the Scout Oath and Law.</p>
                 </div>
-                <div className='home-values__container'>
-                  <h2 className='home-values__h2'>Scout Law</h2>
-                  <p className='home-values__p'>A Scout is trustworthy, loyal, helpful, friendly, courteous, kind, obedient, cheerful, thrifty, brave, clean, and reverent.</p>
+                <div className='home-values__card'>
+                  <h3>Scout Law</h3>
+                  <p>A Scout is trustworthy, loyal, helpful, friendly, courteous, kind, obedient, cheerful, thrifty, brave, clean, and reverent.</p>
                 </div>
-                <div className='home-values__container'>
-                  <h2 className='home-values__h2'>Scout Oath</h2>
-                  <p className='home-values__p'>“On my honor I will do my best to do my duty to God and my country and to obey the Scout Law; to help other people at all times; to keep myself physically strong, mentally awake, and morally straight.”</p>  
+                <div className='home-values__card'>
+                  <h3>Scout Oath</h3>
+                  <p>“On my honor I will do my best to do my duty to God and my country and to obey the Scout Law; to help other people at all times; to keep myself physically strong, mentally awake, and morally straight.”</p>  
                 </div>
-              </div>
-              <div className='polaroid'>
-                <img src={group} alt='A group photo of Troop 227 at a camp site'/>
               </div>
           </article>
         </section>
