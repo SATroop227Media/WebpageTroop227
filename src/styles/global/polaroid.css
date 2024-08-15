@@ -13,7 +13,7 @@
     .home-intro figure img{
       width: auto;
     }
-  
+/*   
     .polaroid-skewed {
       transform: rotate(5deg);
       transition: all 0.35s;
@@ -23,6 +23,6 @@
       transform: rotate(0deg) !important;
       transition: all 0.35s;
     }
-  
+   */
   
   }
