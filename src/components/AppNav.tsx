@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 
 import { Link } from "react-router-dom"
 import "../styles/global/nav.css"
-import WLogo from "../assets/logo-white.png"
 
 export default function AppNav() {
     const [lastScrollTop, setLastScrollTop] = useState<number>(0);
