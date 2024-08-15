@@ -3,14 +3,13 @@ import project2 from '../../../assets/project2.jpg'
 import project3 from '../../../assets/project3.jpg'
 import group from '../../../assets/group.jpg'
 import stock1 from '../../../assets/Stock1.jpg'
-import trail1 from '../../../assets/forestTrail1.jpg'
 
-import '../../../styles/global/App.css'
 import '../../../styles/components/mainhero.css'
 import '../../../styles/components/mainintro.css'
 import '../../../styles/components/mainvalues.css'
 import '../../../styles/components/mainimpact.css'
-import '../../../styles/components/maincontent.css'
+import '../../../styles/global/polaroid.css'
+
 
 function MainContent() {
     return (

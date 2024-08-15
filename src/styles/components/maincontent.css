@@ -1,6 +1,0 @@
-.home-content {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    background-color: var(--color-secondary-base);
-}
