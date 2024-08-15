@@ -3,6 +3,7 @@ import project2 from '../../../assets/project2.jpg'
 import project3 from '../../../assets/project3.jpg'
 import group from '../../../assets/group.jpg'
 import stock1 from '../../../assets/Stock1.jpg'
+import badgeStock from '../../../assets/scoutBadgeStock.jpg'
 
 import '../../../styles/components/mainhero.css'
 import '../../../styles/components/mainintro.css'
@@ -61,6 +62,9 @@ function MainContent() {
                 </div>
               </div>
           </article>
+          <div className='home-values__img-wrapper'>
+            <img src={badgeStock}/>
+          </div>
         </section>
 
         <section className='home-impact' aria-label='making a difference'>

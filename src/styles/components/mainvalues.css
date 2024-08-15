@@ -3,6 +3,9 @@
     padding-top: 2rem;
     padding-bottom: 2rem;
     background-color: var(--color-neutral-800);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 .home-values__content h2 {
