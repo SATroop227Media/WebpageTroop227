@@ -46,21 +46,23 @@ function MainContent() {
 
         <section className='home-values' aria-label="Be prepared">
           <article className='home-values__content'>
-            <h2>Be Prepared</h2>
-              <div className='home-values__cards-content'>
-                <div className='home-values__card'>
-                  <h3>Scout Mission</h3>
-                  <p>The mission of the Boy Scouts of America is to prepare young people to make ethical and moral choices over their lifetimes by instilling in them the values of the Scout Oath and Law.</p>
-                </div>
-                <div className='home-values__card'>
-                  <h3>Scout Law</h3>
-                  <p>A Scout is trustworthy, loyal, helpful, friendly, courteous, kind, obedient, cheerful, thrifty, brave, clean, and reverent.</p>
-                </div>
-                <div className='home-values__card'>
-                  <h3>Scout Oath</h3>
-                  <p>“On my honor I will do my best to do my duty to God and my country and to obey the Scout Law; to help other people at all times; to keep myself physically strong, mentally awake, and morally straight.”</p>  
-                </div>
+            <h2>"Be Prepared"</h2>
+            <p>Our motto - Be Prepared - the slogan that we live by. 
+              By teaching our scouts the importance of preparing themselves to become strong leaders and productive citizens we give them the skills that will last a lifetime.</p>
+            <div className='home-values__cards-content'>
+              <div className='home-values__card'>
+                <h3>Scout Mission</h3>
+                <p>The mission of the Boy Scouts of America is to prepare young people to make ethical and moral choices over their lifetimes by instilling in them the values of the Scout Oath and Law.</p>
               </div>
+              <div className='home-values__card'>
+                <h3>Scout Law</h3>
+                <p>A Scout is trustworthy, loyal, helpful, friendly, courteous, kind, obedient, cheerful, thrifty, brave, clean, and reverent.</p>
+              </div>
+              <div className='home-values__card'>
+                <h3>Scout Oath</h3>
+                <p>“On my honor I will do my best to do my duty to God and my country and to obey the Scout Law; to help other people at all times; to keep myself physically strong, mentally awake, and morally straight.”</p>  
+              </div>
+            </div>
           </article>
           <div className='home-values__img-wrapper'>
             <img src={badgeStock}/>

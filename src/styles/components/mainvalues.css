@@ -1,22 +1,26 @@
 .home-values {
+    --content-gap: 1rem;
+
     padding-inline: var(--global-layout-padding-gutter);
     padding-top: 2rem;
     padding-bottom: 2rem;
     background-color: var(--color-neutral-800);
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: var(--content-gap);
 }
 
-.home-values__content h2 {
-    padding-bottom: 1rem;
+.home-values__content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--content-gap);
+    flex-wrap: wrap;
 }
 
 .home-values__cards-content {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
-    flex-wrap: wrap;
+    gap: var(--content-gap);
 }
 
 .home-values__card {
@@ -25,6 +29,6 @@
     width: 100%;
     padding: 2.25rem;
     display: flex;
-    gap: 1rem;
+    gap: var(--content-gap);
     flex-direction: column;
 }
