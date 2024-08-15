@@ -1,4 +1,4 @@
-function ProjectPage() {
+function ProjectContent() {
     return (
         <>
             Projects Page
@@ -6,4 +6,4 @@ function ProjectPage() {
     )
 }
 
-export default ProjectPage
+export default ProjectContent

@@ -6,7 +6,7 @@ import {
 import MainIndex from "./modules/main/pages/MainIndex.tsx"
 import ErrorPage from "./modules/ErrorPage.tsx"
 import MainContent from "./modules/main/routes/MainContent.tsx";
-import Projects from './modules/main/routes/projects.tsx'
+import ProjectContent from './modules/main/routes/ProjectContent.tsx'
 
 const router = createBrowserRouter([
   {
@@ -20,7 +20,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/projects",
-        element: <Projects />
+        element: <ProjectContent />
       }
     ]
   },
