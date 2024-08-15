@@ -3,7 +3,6 @@ import project2 from '../../../assets/project2.jpg'
 import project3 from '../../../assets/project3.jpg'
 import group from '../../../assets/group.jpg'
 import stock1 from '../../../assets/Stock1.jpg'
-import eagle2 from '../../../assets/EagleScout2.jpg'
 import trail1 from '../../../assets/forestTrail1.jpg'
 
 import '../../../styles/global/App.css'
@@ -41,7 +40,7 @@ function MainContent() {
             We sincerely hope that you and your family consider becoming involved with Scouting and that you contact one of our leaders if you're interested in joining.
           </p>
           <div>
-            <img src={eagle2}/>
+            <img src={group}/>
           </div>
         </section>
 
