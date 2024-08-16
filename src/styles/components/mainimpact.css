@@ -21,7 +21,7 @@
 @keyframes slide-right {
     0% {
         opacity: 0;
-        translate: 15% 0;
+        translate: -15% 0;
     }
     100% {
         opacity: 1;
@@ -31,7 +31,7 @@
 @media (prefers-reduced-motion: no-preference) {
     .slide-right {
         animation-name: slide-right;
-        animation-duration: 400ms;
+        animation-duration: 1s;
         animation-timing-function: ease-in-out;
     }
 }
