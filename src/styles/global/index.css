@@ -36,19 +36,21 @@ img {
   max-width: 100%;
   display: block;
 }
-.container {
-  width: 90%;
-  margin: 0 auto;
-  max-width: 70rem;
-}
 
 :root {
   --global-layout-padding-gutter: 2rem;
   --global-layout-header-element-height: 5.375rem;
+  --global-layout-max-width: 866px;
+}
+
+@media (min-width: 48rem) {
+  :root {
+    --global-layout-padding-gutter: 3.25rem;
+  }
 }
 
 @media (min-width: 64rem) {
   :root {
-    --global-layout-padding-x: 4rem;
+    --global-layout-padding-gutter: 5rem;
   }
 }

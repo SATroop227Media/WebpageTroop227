@@ -5,16 +5,18 @@
     padding-top: 2rem;
     padding-bottom: 2rem;
     background-color: var(--color-neutral-800);
-    display: flex;
-    flex-direction: column;
-    gap: var(--content-gap);
 }
 
 .home-values__content {
     display: flex;
     flex-direction: column;
     gap: var(--content-gap);
-    flex-wrap: wrap;
+}
+
+.home-values__content-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: var(--content-gap);
 }
 
 .home-values__cards-content {
@@ -31,4 +33,12 @@
     display: flex;
     gap: var(--content-gap);
     flex-direction: column;
+}
+
+@media (min-width: 62rem) {
+
+    .home-values__content-bottom {
+        flex-direction: row-reverse;
+    }
+
 }
