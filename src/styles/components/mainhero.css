@@ -3,21 +3,39 @@
 
 
 .home-hero {
-    --hero-height: 100svh;
+  --hero-height: 100svh;
 
-    font-family: var(--font-family-hero);
-    display: flex;
-    align-items: flex-end;
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-    position: relative;
-    color: var(--color-neutral-900);
+  font-family: var(--font-family-hero);
+  display: flex;
+  align-items: flex-end;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+  color: var(--color-neutral-900);
 
-    min-height: max(37.5rem, var(--hero-height));
-    padding: 10rem 0;
-    padding-inline: var(--global-layout-padding-gutter);
-    padding-block: 6rem 2.75rem;
+  min-height: max(37.5rem, var(--hero-height));
+  padding: 8rem 0;
+  padding-inline: var(--global-layout-padding-gutter);
+  padding-block: 6rem 2.75rem;
+
+  animation-delay: 0ms;
+  animation-duration: .8s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+.home-hero.observed {
+  animation-name: fade-in;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: .01;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .home-hero::before {
