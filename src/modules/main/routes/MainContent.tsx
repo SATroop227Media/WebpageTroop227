@@ -26,7 +26,7 @@ function MainContent() {
         </section>
 
         <section className='home-intro'>
-          <h2>Come be a part</h2>
+          <h2>Be a part of something more</h2>
           <p>
             Troop 227 began when it was chartered in __ and has been serving scouts in the Johnson County area ever since. 
             We are a part of the Pathfinder District within Indiana's Cross Roads of America Council and conduct our activities primarily in Southern Indiana. 
@@ -72,7 +72,7 @@ function MainContent() {
         </section>
 
         <section className='home-impact' aria-label='making a difference'>
-          <h2>See our Impact!</h2>
+          <h2>See our impact!</h2>
           <p>Troop 227 aids in community development by volunteering and by giving youth a safe space to grow and foster their values. 
             Across Johnson County you can find where our young leaders have left their mark through the love for their community and fpr scouting.
           </p>
