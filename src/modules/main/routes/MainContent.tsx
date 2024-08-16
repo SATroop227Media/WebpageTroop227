@@ -76,23 +76,23 @@ function MainContent() {
           <p>Troop 227 aids in community development by volunteering and by giving youth a safe space to grow and foster their values. 
             Across Johnson County you can find where our young leaders have left their mark through the love for their community and fpr scouting.
           </p>
-          <ul className='home-impact__list responsive-grid' aria-label="community projects by troop 227">
+          <ul className='home-impact__list' aria-label="community projects by troop 227">
             <li className=''>
-              <figure className='home-impact__list-item polaroid' aria-labelledby='project-1'>
+              <figure className='home-impact__list-item polaroid slide-right' aria-labelledby='project-1'>
                 <img src={project1} alt="Troop 227 scout and adult leaders measuring dimensions of a children's playground"/>
                 <figcaption className='gallery-desc'>
                 </figcaption>
               </figure>
             </li>
             <li>
-              <figure className='home-impact__list-item polaroid' aria-labelledby='project-2'>
+              <figure className='home-impact__list-item polaroid slide-right' aria-labelledby='project-2'>
                 <img src={project2} alt='Scout and his grandfather standing in front of food that was donated for his Eagle project'/>
                 <figcaption className='gallery-desc'>  
                 </figcaption >
               </figure>
             </li>
             <li>
-              <figure className='home-impact__list-item polaroid' aria-labelledby='project-3'>
+              <figure className='home-impact__list-item polaroid slide-right' aria-labelledby='project-3'>
                 <img src={project3} alt='Scout standing infront of clothing racks created for his Eagle project'/>
                 <figcaption className='gallery-desc'>
                 </figcaption>
