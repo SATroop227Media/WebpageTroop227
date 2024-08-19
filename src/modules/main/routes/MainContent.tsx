@@ -44,7 +44,7 @@ function MainContent() {
 
   return (
     <>
-      <section className="home-hero" aria-label="Our Impact" data-comp-observee="">
+      <section className="home-hero" aria-label="Our Impact" data-comp-observee="" data-comp-observee-threshold=".5">
         <article className='home-hero__content'>
           <h1 className='home-hero__header'>Creating the leaders of tomorrow by fostering the youth of today  </h1>
           <p className='home-hero__description'>For over 60 years, Troop 227 has been active in Johnson County and bringing about positive change. We seek to instill the values and mission of Scouting into the young men and women by teaching skills and lessons to last a life time!</p>
@@ -93,7 +93,7 @@ function MainContent() {
                 <p>“On my honor I will do my best to do my duty to God and my country and to obey the Scout Law; to help other people at all times; to keep myself physically strong, mentally awake, and morally straight.”</p>  
               </div>
             </div>
-            <div className='home-values__img-wrapper' data-comp-observee="" data-threshold=".5">
+            <div className='home-values__img-wrapper' data-comp-observee="" data-comp-observee-threshold=".5">
               <img src={badgeStock}/>
             </div>
           </div>
