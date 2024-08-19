@@ -1,4 +1,3 @@
-import { useState, useRef, useEffect } from "react"
 import { Outlet } from "react-router-dom"
 import AppNav from "../../../components/AppNav"
 import Footer from "../../../components/Footer"
