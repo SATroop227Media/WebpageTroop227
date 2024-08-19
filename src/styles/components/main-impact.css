@@ -22,6 +22,7 @@
         max-width: 90rem;
     }
 }
+
 @keyframes slide-right {
     0% {
         opacity: 0;
@@ -32,6 +33,7 @@
         translate: 0;
     }
 }
+
 @media (prefers-reduced-motion: no-preference) {
     .home-impact__list-item.observed {
         animation-name: slide-right;
