@@ -33,6 +33,7 @@
     display: flex;
     gap: var(--content-gap);
     flex-direction: column;
+    opacity: .01;
 }
 
 @keyframes slide-up {
@@ -48,15 +49,13 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-    .home-values__card {
+    .home-values__card.observed {
         animation-name: slide-up;
         animation-duration: 400ms;
         animation-timing-function: ease-in-out;
+        opacity: 1.0;
     }
 }
-
-
-
 
 @media (min-width: 64rem) {
 
