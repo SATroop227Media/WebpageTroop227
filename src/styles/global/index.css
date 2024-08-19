@@ -9,6 +9,7 @@
 @import url("./variables/colors.css");
 @import url("./typography.css");
 
+/* We can layer this selector */
 * {
   box-sizing: border-box;
   margin: 0;
