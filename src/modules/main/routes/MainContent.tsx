@@ -95,7 +95,7 @@ function MainContent() {
                 <p>“On my honor I will do my best to do my duty to God and my country and to obey the Scout Law; to help other people at all times; to keep myself physically strong, mentally awake, and morally straight.”</p>  
               </div>
             </div>
-            <div className='home-values__img-wrapper'>
+            <div className='home-values__img-wrapper' data-comp-observee="">
               <img src={badgeStock}/>
             </div>
           </div>
@@ -108,22 +108,22 @@ function MainContent() {
           Across Johnson County you can find where our young leaders have left their mark through the love for their community and fpr scouting.
         </p>
         <ul className='home-impact__list' aria-label="community projects by troop 227">
-          <li className='' data-comp-observee="">
-            <figure className='home-impact__list-item polaroid slide-right' aria-labelledby='project-1'>
+          <li>
+            <figure className='home-impact__list-item polaroid' aria-labelledby='project-1' data-comp-observee="">
               <img src={project1} alt="Troop 227 scout and adult leaders measuring dimensions of a children's playground"/>
               <figcaption className='gallery-desc'>
               </figcaption>
             </figure>
           </li>
-          <li data-comp-observee="">
-            <figure className='home-impact__list-item polaroid slide-right' aria-labelledby='project-2'>
+          <li>
+            <figure className='home-impact__list-item polaroid' aria-labelledby='project-2' data-comp-observee="">
               <img src={project2} alt='Scout and his grandfather standing in front of food that was donated for his Eagle project'/>
               <figcaption className='gallery-desc'>  
               </figcaption >
             </figure>
           </li>
-          <li data-comp-observee="">
-            <figure className='home-impact__list-item polaroid slide-right' aria-labelledby='project-3'>
+          <li>
+            <figure className='home-impact__list-item polaroid' aria-labelledby='project-3' data-comp-observee="">
               <img src={project3} alt='Scout standing infront of clothing racks created for his Eagle project'/>
               <figcaption className='gallery-desc'>
               </figcaption>

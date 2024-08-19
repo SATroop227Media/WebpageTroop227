@@ -11,6 +11,10 @@
     gap: .85rem;
 }
 
+.home-impact__list-item {
+    opacity: .01;
+}
+
 @media (min-width: 64rem) {
     .home-impact {
         margin: 0 auto;
@@ -29,10 +33,11 @@
     }
 }
 @media (prefers-reduced-motion: no-preference) {
-    .slide-right {
+    .home-impact__list-item.observed {
         animation-name: slide-right;
         animation-duration: 1s;
         animation-timing-function: ease-in-out;
+        opacity:1.0;
     }
 }
 
