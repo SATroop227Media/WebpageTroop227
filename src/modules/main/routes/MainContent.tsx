@@ -10,7 +10,7 @@ import '../../../styles/components/main-intro.css'
 import '../../../styles/components/main-values.css'
 import '../../../styles/components/main-impact.css'
 import '../../../styles/global/polaroid.css'
-import { useEffect, useState, useRef } from 'react'
+import { useEffect } from 'react'
 
 
 function MainContent() {
@@ -40,8 +40,6 @@ function MainContent() {
         observer.unobserve(animatable)
       })
     }
-
-
   }, [])
 
   return (
@@ -95,7 +93,7 @@ function MainContent() {
                 <p>“On my honor I will do my best to do my duty to God and my country and to obey the Scout Law; to help other people at all times; to keep myself physically strong, mentally awake, and morally straight.”</p>  
               </div>
             </div>
-            <div className='home-values__img-wrapper' data-comp-observee="">
+            <div className='home-values__img-wrapper' data-comp-observee="" data-threshold=".5">
               <img src={badgeStock}/>
             </div>
           </div>
