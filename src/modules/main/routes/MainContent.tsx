@@ -19,7 +19,6 @@ function MainContent() {
     const animatables = document.querySelectorAll("[data-comp-observee]")
     const imgWrapper = document.querySelector(".home-values__img-wrapper")
 
-    console.log(animatables)
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         entry.target.classList.toggle("observed", entry.isIntersecting);
@@ -52,6 +51,7 @@ function MainContent() {
       animatables.forEach(animatable => {
         observer.unobserve(animatable)
       })
+      imgWrapperObserver.unobserve(imgWrapper!);
     }
   }, [])
 
