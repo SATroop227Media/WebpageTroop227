@@ -86,7 +86,7 @@ header.hide {
   position: absolute;
   scale: 0 1;
   transform-origin: left center;
-  transition: scale var(--global-transition-duration-short) cubic-bezier(.01,.17,.16,.52);
+  transition: scale 100ms cubic-bezier(.01,.17,.16,.52);
   width: 100%;
 }
 
