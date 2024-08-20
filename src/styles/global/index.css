@@ -1,13 +1,24 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-.bebas-neue-regular {
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-} */
-
 /*This is the font used by official bsa (serif font)*/
 @import url("./variables/colors.css");
 @import url("./typography.css");
+
+:root {
+  --global-layout-padding-gutter: 2rem;
+  --global-layout-header-element-height: 5.375rem;
+  --global-layout-max-width: 866px;
+}
+
+@media (min-width: 48rem) {
+  :root {
+    --global-layout-padding-gutter: 3.25rem;
+  }
+}
+
+@media (min-width: 64rem) {
+  :root {
+    --global-layout-padding-gutter: 5rem;
+  }
+}
 
 /* We can layer this selector */
 * {
@@ -36,22 +47,4 @@ html {
 img {
   max-width: 100%;
   display: block;
-}
-
-:root {
-  --global-layout-padding-gutter: 2rem;
-  --global-layout-header-element-height: 5.375rem;
-  --global-layout-max-width: 866px;
-}
-
-@media (min-width: 48rem) {
-  :root {
-    --global-layout-padding-gutter: 3.25rem;
-  }
-}
-
-@media (min-width: 64rem) {
-  :root {
-    --global-layout-padding-gutter: 5rem;
-  }
 }
