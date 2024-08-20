@@ -1,7 +1,6 @@
 @import url(../global/typography.css);
 @import url(../global/variables/colors.css);
 
-
 .home-hero {
   --hero-height: 100svh;
 
