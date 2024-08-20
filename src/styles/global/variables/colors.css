@@ -57,7 +57,6 @@
         var(--color-primary-base),
         var(--color-white-base) 100%
     );
-
     --color-neutral-0: color-mix(
         in srgb,
         var(--color-gray-base),
@@ -110,7 +109,6 @@
         var(--color-white-base) 100%
     );
 
-
     --color-header-background: rgba(38, 38, 36, .6);
     --color-background: var(--color-neutral-900);
     --color-hero-gradient: linear-gradient(
@@ -138,5 +136,4 @@
         color-mix(in srgb, var(--color-primary-200), transparent 10%),
         color-mix(in srgb, var(--color-primary-300), transparent 30%)
     );
-
 }
