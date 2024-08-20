@@ -12,7 +12,7 @@
 }
 
 .home-impact__list-item {
-    opacity: .9;
+    opacity: .01;
 }
 
 @media (min-width: 64rem) {
