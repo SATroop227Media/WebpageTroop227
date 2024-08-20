@@ -13,7 +13,7 @@ export default function ErrorPage() {
           <h1>Oops!</h1>
           <p>Sorry, an unexpected error has occurred.</p>
           <p>
-            <i>{error.statusText || error.message}</i>
+            <span className="italics">{error.statusText || error.message}</span>
           </p>
         </div>
         <Footer />
