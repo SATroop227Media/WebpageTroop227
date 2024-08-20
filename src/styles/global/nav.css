@@ -1,7 +1,7 @@
 @import url(../global//variables/colors.css);
 
 header {
-  --header-element-padding: var(--global-layout-padding-x);
+  --header-element-padding: var(--global-layout-padding-gutter);
 
   position: fixed;
   top:0;
