@@ -27,15 +27,6 @@
   animation-timing-function: ease-in-out;
 }
 
-@keyframes fade-in {
-  0% {
-    opacity: .01;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 .home-hero::before {
   background: linear-gradient(106deg, var(--color-neutral-200) 16.84%, rgba(39,45,60,.53) 56.05%,rgba(39,45,60,0) 98.07%);
   content: "";
@@ -86,12 +77,22 @@
   width: 100%;
   height: 100%;
   z-index: -1;
-  inset: 0;
+  inset: 0; 
+
+  img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    min-width: 43.75rem;
+  }
+
 }
 
-.home-hero__background img {
-  object-fit: cover;
-  height: 100%;
-  width: 100%;
-  min-width: 43.75rem;
+@keyframes fade-in {
+  0% {
+    opacity: .01;
+  }
+  100% {
+    opacity: 1;
+  }
 }
