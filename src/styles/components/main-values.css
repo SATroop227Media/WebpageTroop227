@@ -64,6 +64,7 @@
 
     .home-values__cards-content {
         flex-direction: column;
+        width: 45%;
     }
 
     .home-values {
@@ -74,6 +75,12 @@
 
     .home-values__content-bottom {
         flex-direction: row-reverse;
+        justify-content: stretch;
+    }
+
+    .home-values__img-wrapper {
+        width: 55%;
+        height:inherit;
     }
 }
 
