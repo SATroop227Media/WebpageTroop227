@@ -148,7 +148,7 @@ function MainContent() {
                 <img src={project2} alt='Scout and his grandfather standing in front of food that was donated for his Eagle project'/>
               </div>
               <div  className='home-impact__item-content'>
-                <h3>Alejandro Garnica  - Johnson County Food Pantry</h3>
+                <h3>Alejandro Garnica - Johnson County Food Pantry</h3>
                 <p>
                   Alejandro put together bags for the Johnson County Interchurch Food Pantry consisting of 200 weekend lunch bags and 75 birthday bags. 
                   The lunch bags including a meal and several snacks while the birthday bag including a cake and toy so that the families can have birthdays for their kids. 
@@ -166,7 +166,7 @@ function MainContent() {
                 <img src={project3} alt='Scout standing infront of clothing racks created for his Eagle project'/>
               </div>
               <div  className='home-impact__item-content'>
-                <h3>Joshua Stephen Miller  - Resources of Hope</h3>
+                <h3>Joshua Stephen Miller - Resources of Hope</h3>
                 <p>
                   Joshua assisted Resources of Hope in Whiteland, Indiana in relocating to a larger facility in Whiteland. 
                   Part of the project included building three 10ft long free-standing clothing racks that was built on-site in the new facility.  

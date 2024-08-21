@@ -4,6 +4,7 @@
     background: #dfdfdf;
     padding: 1rem;
     box-shadow: 0 1rem 1.2rem rgba(0,0,0,0.2);
+    height: max-content;
   }
 
 
