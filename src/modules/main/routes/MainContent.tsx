@@ -39,11 +39,11 @@ function MainContent() {
       root: null,
       threshold: Number(imgWrapper?.getAttribute("data-comp-observee-threshold")),
       rootMargin: "0px"
-    })
+    });
 
     animatables.forEach(animatable => {
       observer.observe(animatable)
-    })
+    });
 
     imgWrapperObserver.observe(imgWrapper!);
 
@@ -182,7 +182,7 @@ function MainContent() {
         </ul>
       </section>
     </>
-  )
+  );
 }
 
 export default MainContent
