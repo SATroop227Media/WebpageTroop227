@@ -43,10 +43,6 @@
 
         .home-impact__item-content {
             flex: 3 0 0;
-
-            p {
-                text-align: justify;
-            }
         }
     }
 }
