@@ -56,6 +56,26 @@
     }
 }
 
+.home-values__card::after {
+    background: radial-gradient(circle, var(--color-primary-base) 0, hsla(0,0%,100%,0) 90%);
+    height: 100%;
+    content:"";
+    opacity: 0;
+    position: absolute;
+    pointer-events: none;
+    z-index: -1;
+    filter: blur(6.25rem);
+    mix-blend-mode: overlay;
+    transition: ease-in;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.home-values__card:hover::after {
+    opacity: 1;
+}
+
 .home-values__img-wrapper::before {
     background: radial-gradient(circle, transparent 50%, black 150%);
     content: "";
