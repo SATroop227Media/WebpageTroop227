@@ -116,7 +116,7 @@ function MainContent() {
       <section className='home-impact' aria-label='making a difference'>
         <h2>See our impact!</h2>
         <p>Troop 227 aids in community development by volunteering and by giving youth a safe space to grow and foster their values. 
-          Across Johnson County you can find where our young leaders have left their mark through the love for their community and fpr scouting.
+          Across Johnson County you can find where our young leaders have left their mark through the love for their community and for scouting.
         </p>
         <ul className='home-impact__list' aria-label="community projects by troop 227">
           <li>
