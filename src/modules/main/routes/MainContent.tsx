@@ -27,7 +27,7 @@ function MainContent() {
     }, 
     {
       root: null,
-      threshold: 1,
+      threshold: .01,
       rootMargin: "0px"
     });
 
@@ -106,7 +106,7 @@ function MainContent() {
                 <p>“On my honor I will do my best to do my duty to God and my country and to obey the Scout Law; to help other people at all times; to keep myself physically strong, mentally awake, and morally straight.”</p>  
               </div>
             </div>
-            <div className='home-values__img-wrapper' data-comp-observee="" data-comp-observee-threshold=".25">
+            <div className='home-values__img-wrapper' data-comp-observee="" data-comp-observee-threshold=".01">
               <img src={badgeStock}/>
             </div>
           </div>

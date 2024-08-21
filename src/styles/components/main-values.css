@@ -5,6 +5,7 @@
     padding-top: 2rem;
     padding-bottom: 2rem;
     background-color: var(--color-neutral-800);
+    max-width: var(--global-layout-max-width);
 }
 
 .home-values__content {
@@ -75,6 +76,11 @@
 }
 
 @media (min-width: 64rem) {
+    .home-values {
+        margin: 0 auto;
+        max-inline-size: 90rem;
+    }
+
     .home-values__content-bottom {
         flex-direction: row-reverse;
     }

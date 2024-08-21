@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    max-width: var(--global-layout-max-width);
 }
 
 .home-impact__list {
@@ -12,14 +13,13 @@
 }
 
 .home-impact__list-item {
-    opacity: .01;
+    opacity: 1;
 }
 
 @media (min-width: 64rem) {
     .home-impact {
         margin: 0 auto;
         align-self: center;
-        max-width: 90rem;
     }
 }
 
@@ -39,7 +39,6 @@
         animation-name: slide-right;
         animation-duration: 1s;
         animation-timing-function: ease-in-out;
-        opacity:1.0;
     }
 }
 
@@ -51,6 +50,5 @@
         scroll-behavior: auto !important;
         transition-delay: 0ms !important;
         transition-duration: 0ms !important;
-        opacity: 1.0;
     }
 }

@@ -5,12 +5,12 @@
     padding-top: 2rem;
     padding-bottom: 2rem;
     gap: 1rem;
+    max-width: var(--global-layout-max-width);
 }
 
 @media (min-width: 64rem) {
     .home-intro {
         margin: 0 auto;
         align-self: center;
-        max-width: 90rem;
     }
 }

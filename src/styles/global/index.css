@@ -5,7 +5,7 @@
 :root {
   --global-layout-padding-gutter: 2rem;
   --global-layout-header-element-height: 5.375rem;
-  --global-layout-max-width: 866px;
+  --global-layout-max-width: 90rem;
 }
 
 @media (min-width: 48rem) {
