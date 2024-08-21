@@ -6,11 +6,6 @@
     padding-bottom: 2rem;
     gap: 1rem;
     max-width: var(--global-layout-max-width);
-}
-
-@media (min-width: 64rem) {
-    .home-intro {
-        margin: 0 auto;
-        align-self: center;
-    }
+    margin: 0 auto;
+    align-self: center;
 }
