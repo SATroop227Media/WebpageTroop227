@@ -120,25 +120,58 @@ function MainContent() {
         </p>
         <ul className='home-impact__list' aria-label="community projects by troop 227">
           <li>
-            <figure className='home-impact__list-item polaroid' aria-labelledby='project-1' data-comp-observee="">
-              <img src={project1} alt="Troop 227 scout and adult leaders measuring dimensions of a children's playground"/>
-              <figcaption className='gallery-desc'>
-              </figcaption>
-            </figure>
+            <article className='home-impact__list-item' aria-labelledby='project-1' data-comp-observee="">
+              <div className='polaroid'>
+                <img src={project1} alt="Troop 227 scout and adult leaders measuring dimensions of a children's playground"/>  
+                <h3>
+                  Jonathan Gaven Miller - Saint Rose of Lima School
+                </h3>
+              </div>
+              <p>
+                Gaven built playground equipment for Preschool children at St. Rose of Lima school in Franklin.  
+                The equipment was needed to fulfill playground equipment for preschool age children, which they did not have. 
+                The two balance beams on the ground  108" wide x 18" deep x 7" high out of treated wood. A See Saw  111" wide x 19" deep x 24" high out of treated wood. 
+                The Rockapotamus (rocking hippo) is 69" wide x 42" deep x 28" high out of treated wood. 
+                The play fort/post made out of treated wood. All equipment is able to be transported if needed. 
+                Additionally, two trees were purchased and planted along with mulch around the trees. 
+                The equipment and other add-ons provide entertainment for the preschool children of St. Rose.  
+                Troop members and volunteers assisted in assembling the playground equipment and doing the planting of trees.  
+                Gaven raised money at church and trough private contributors.
+              </p>
+            </article>
           </li>
           <li>
-            <figure className='home-impact__list-item polaroid' aria-labelledby='project-2' data-comp-observee="">
-              <img src={project2} alt='Scout and his grandfather standing in front of food that was donated for his Eagle project'/>
-              <figcaption className='gallery-desc'>  
-              </figcaption >
-            </figure>
+            <article className='home-impact__list-item' aria-labelledby='project-2' data-comp-observee="">
+              <div className='polaroid'>
+                <img src={project2} alt='Scout and his grandfather standing in front of food that was donated for his Eagle project'/>
+                <h3>Alejandro Garnica  - Johnson County Food Pantry</h3>
+              </div>
+              <p>
+                Alejandro put together bags for the Johnson County Interchurch Food Pantry consisting of 200 weekend lunch bags and 75 birthday bags. 
+                The lunch bags including a meal and several snacks while the birthday bag including a cake and toy so that the families can have birthdays for their kids. 
+                This helped the families with the Food Pantry to have food and be able to have birthdays.  
+                Money was raised at St Rose of Lima church, and donations of items from customers at Dollar Tree.  
+                The bags were assembled by volunteers including troop members.  
+                After completion, a caravan of volunteers drove and delivered the items to the food pantry.
+              </p>
+            </article>
           </li>
           <li>
-            <figure className='home-impact__list-item polaroid' aria-labelledby='project-3' data-comp-observee="">
-              <img src={project3} alt='Scout standing infront of clothing racks created for his Eagle project'/>
-              <figcaption className='gallery-desc'>
-              </figcaption>
-            </figure>
+            <article className='home-impact__list-item' aria-labelledby='project-3' data-comp-observee="">
+              <div className='polaroid'>
+                <img src={project3} alt='Scout standing infront of clothing racks created for his Eagle project'/>
+                <h3>Joshua Stephen Miller  - Resources of Hope, Whiteland, IN</h3>
+                </div>
+              <p>
+                Joshua assisted Resources of Hope in Whiteland, Indiana in relocating to a larger facility in Whiteland. 
+                Part of the project included building three 10ft long free-standing clothing racks that was built on-site in the new facility.  
+                Money was raised at local churches and other donors.  Substantial effort was to relocate the clothing items from the old location to the new one. 
+                Troop members and other volunteers assisted in collecting clothing items and moving them. 
+                Resources of Hope strives to meet the physical needs of foster youth through The Closet. 
+                At The Closet, foster/kinship families can shop for free clothing, shoes, seasonal wear, toys, and more for the children in their care. 
+                The project helped this organization move to a larger location to help more families.
+              </p>
+            </article>
           </li>
         </ul>
       </section>
