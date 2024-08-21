@@ -16,6 +16,13 @@
 
 .home-impact__list-item {
     opacity: 1;
+    display: flex;
+}
+
+@media (min-width: 64rem) {
+    .home-impact__list-item {
+        flex-direction: row-reverse;
+    }
 }
 
 @keyframes slide-right {
