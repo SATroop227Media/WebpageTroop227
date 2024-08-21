@@ -11,7 +11,7 @@ export default function AppNav() {
     //TODO: double check tomorrow
     //debouner is non-responsive/it just disappears from page functionality
 
-    const eventDebounce = (cb: any, delay: number = 900 / 60) => {
+    const eventDebounce = (cb: any, delay: number = 600 / 60) => {
         let timeout = setTimeout(cb, delay); //Performs my function after a delay
 
         return () => {
