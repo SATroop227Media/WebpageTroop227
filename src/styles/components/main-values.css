@@ -81,7 +81,7 @@
 @media (min-width: 64rem) {
 
     .home-values__content-bottom {
-        flex-direction: row-reverse;
+        flex-direction: row;
     }
 
     .home-values__content-bottom .home-values__cards-content{

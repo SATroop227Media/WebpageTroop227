@@ -33,12 +33,11 @@
 
 @media (min-width: 52rem) {
     .home-impact__list-item {
-        flex-direction: row-reverse;
+        flex-direction: row;
         flex: 1 0 0;
 
         .home-impact__item-img {
             flex: 2 0 0;
-            align-self: center;
         }
 
         .home-impact__item-content {
@@ -47,7 +46,7 @@
     }
 }
 
-@keyframes slide-right {
+@keyframes slide-left {
     0% {
         opacity: 0;
         translate: -15% 0;
@@ -60,7 +59,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
     .home-impact__list-item.observed {
-        animation-name: slide-right;
+        animation-name: slide-left;
         animation-duration: 1s;
         animation-timing-function: ease-in-out;
     }
