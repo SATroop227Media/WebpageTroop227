@@ -11,7 +11,7 @@ export default function AppNav() {
     //TODO: double check tomorrow
     //debouner is non-responsive/it just disappears from page functionality
 
-    const eventDebounce = (cb: any, delay: number = 1000 / 60) => {
+    const eventDebounce = (cb: any, delay: number = 900 / 60) => {
         let timeout = setTimeout(cb, delay); //Performs my function after a delay
 
         return () => {
@@ -36,9 +36,12 @@ export default function AppNav() {
       };
     
       useEffect(() => {
-        window.addEventListener('scroll', eventDebounce(handleScroll));
+        const debounceFunction = eventDebounce(handleScroll)
+        window.addEventListener('scroll', debounceFunction);
+
+
         return () => {
-          window.removeEventListener('scroll', eventDebounce(handleScroll));
+          window.removeEventListener('scroll', debounceFunction);
         };
       }, [lastScrollTop]);
 
