@@ -1,5 +1,7 @@
 import eagle from "../../../assets/EagleScout1.jpg"
 
+// reference this: https://www.kenan-flagler.unc.edu/about/history/
+
 function ProjectContent() {
     return (
         <> 
@@ -7,6 +9,9 @@ function ProjectContent() {
                 <img src={eagle}/>
             </section>
             <section className="project-content">
+                <div className="project__timeline-base">
+
+                </div>
                 <ol className="project__year-list">
                     <li>
                         <h2>2003</h2>
