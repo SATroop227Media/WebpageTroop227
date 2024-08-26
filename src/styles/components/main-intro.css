@@ -2,8 +2,8 @@
     display: flex;
     flex-direction: column;
     padding-inline: var(--global-layout-padding-gutter);
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: var(--global-layout-padding-block);
+    padding-bottom: var(--global-layout-padding-block);
     gap: 1rem;
     max-width: var(--global-layout-max-width);
     margin: 0 auto;

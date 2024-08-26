@@ -12,8 +12,8 @@
     flex-direction: column;
     gap: var(--content-gap);
     padding-inline: var(--global-layout-padding-gutter);
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: var(--global-layout-padding-block);
+    padding-bottom: var(--global-layout-padding-block);
     max-width: var(--global-layout-max-width);
 }
 

@@ -6,17 +6,20 @@
   --global-layout-padding-gutter: 2rem;
   --global-layout-header-element-height: 5.375rem;
   --global-layout-max-width: 90rem;
+  --global-layout-padding-block: 2rem;
 }
 
 @media (min-width: 48rem) {
   :root {
     --global-layout-padding-gutter: 3.25rem;
+    --global-layout-padding-block: 2.45rem;
   }
 }
 
 @media (min-width: 64rem) {
   :root {
     --global-layout-padding-gutter: 5rem;
+    --global-layout-padding-block: 2.75rem;
   }
 }
 
@@ -37,7 +40,7 @@
 html {
   --page-background-color: var(--color-background);
 
-  font-family: var(--font-family-body);
+  font-family: var(--font-family-sans-serif);
   font-weight: 300;
   font-size: 16px;
   color: var(--color-text);
