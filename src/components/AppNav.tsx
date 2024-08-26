@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-
 import { Link } from "react-router-dom"
 import "../styles/global/nav.css"
 
@@ -18,8 +17,10 @@ export default function AppNav() {
     }
   }
 
+  
+  //Handle scroll only occurs when after the scroll finishes scrolling and not at the start
   const handleScroll = (): void => {
-    const scrollTop = window.scrollY; //returns number of pixels that the window is scrolled vertially
+    const scrollTop = window.scrollY; //returns number of pixels that the window is scrolled vertially 
 
   if (scrollTop > lastScrollTop) {
     setScrollDirection(-1); //down
