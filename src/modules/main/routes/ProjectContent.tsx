@@ -1,12 +1,15 @@
 import eagle from "../../../assets/EagleScout1.jpg"
+import "../../../styles/components/project-banner.css"
 import "../../../styles/components/project-timeline.css"
 // reference this: https://www.kenan-flagler.unc.edu/about/history/
 
 function ProjectContent() {
     return (
         <> 
-            <section className="project-hero">
-                <img src={eagle}/>
+            <section className="project-banner">
+                <div className="project-banner__img-wrapper">
+                    <img src={eagle}/>
+                </div>
             </section>
             <section className="project-timeline">
                 <ol className="project__year-list">
