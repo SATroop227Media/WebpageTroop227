@@ -11,6 +11,7 @@
     width: 0;
     height: 100%;
     border-left: 2px solid cornflowerblue;
+    
 }
 
 .project__year {
@@ -24,4 +25,5 @@
     height: 26px;
     border-radius: 13px;
     border: 1px solid #cacaca;
+    flex-shrink: 0;
 }
