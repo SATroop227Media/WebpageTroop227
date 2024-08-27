@@ -2,6 +2,8 @@
     position: relative;
     padding-inline: var(--global-layout-padding-gutter);
     padding-block: var(--global-layout-padding-block);
+    --timeline-color: cornflowerblue;
+    --timeline-background-color: lightgrey;
 }
 
 .project__year-list {
@@ -17,12 +19,13 @@
     top: 0;
     width: 0;
     height: 100%;
-    border-left: 2px solid cornflowerblue;
+    border-left: 2px solid var(--timeline-color);
     
 }
 
 .project__year {
     display: flex;
+    position: relative;
 }
 
 .project__year::before {
@@ -31,8 +34,12 @@
     width: 8px;
     height: 8px;
     border-radius: 13px;
-    border: 2px solid orange;
+    border: 2px solid var(--timeline-color);
+    background: var(--timeline-background-color);
     flex-shrink: 0;
+    position: absolute;
+    left: -5px;
+    top: 39px;
 }
 
 .project__project-list {
@@ -51,7 +58,12 @@
     padding-bottom: .5rem;
 }
 
+.project__year-content {
+    position: relative;
+    padding-inline-start: 1rem;
+}
+
 .project__year-content > h2 {
     padding-block: .25rem;
-    text-decoration: underline dashed orange 2px;
+    text-decoration: underline dashed var(--timeline-color) 2px;
 }
