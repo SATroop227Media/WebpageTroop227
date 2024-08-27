@@ -3,7 +3,7 @@
 header {
   --header-element-padding: var(--global-layout-padding-gutter);
 
-  position: fixed;
+  position: sticky;
   top:0;
   right: 0;
   left: 0;
@@ -22,9 +22,9 @@ header {
   justify-content: space-between;
 }
   
-header.hide {
+/* header.hide {
   transform: translateY(-100%);
-}
+} */
 
 .troop227-header__logo {
   padding:  .75rem 0rem .75rem var(--header-element-padding);
