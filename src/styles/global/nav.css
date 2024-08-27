@@ -5,13 +5,9 @@ header {
 
   position: sticky;
   top:0;
-  right: 0;
-  left: 0;
-  transition: ease .5s;
 
-  backdrop-filter: blur(10px);
-  background: var(--color-header-background);
-  border-bottom: 1px solid rgba(92, 92, 89, .5);
+  background: var(--color-neutral-100);
+  border-bottom: 2px solid rgb(139, 121, 37);
   color: var(--color-neutral-1000);
 
   height: var(--global-layout-header-element-height);
@@ -21,10 +17,6 @@ header {
   z-index: 100;
   justify-content: space-between;
 }
-  
-/* header.hide {
-  transform: translateY(-100%);
-} */
 
 .troop227-header__logo {
   padding:  .75rem 0rem .75rem var(--header-element-padding);
