@@ -52,13 +52,14 @@
 
 .project__card {
     padding: 2rem;
-    width: 60ch;
+    min-width: 40ch;
+    max-width: 70ch;
     background-color: var(--color-neutral-900);
     border-radius: 16px;
 }
 
 .project__card > h3 {
-    padding-bottom: .5rem;
+    padding-bottom: .75rem;
     font-family: var(--font-family-serif);
 }
 

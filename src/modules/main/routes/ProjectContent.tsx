@@ -68,7 +68,7 @@ function ProjectContent() {
                             <ul className="project__project-list">
                                 <li className="project__card">
                                     <h3>Matt Byrne</h3>
-                                    <p>Built firepits at Praise Acres camping area.</p>
+                                    <p>Built firepits at Praise Acres camping area in Bargersville, IN.</p>
                                 </li>
                                 <li className="project__card">
                                     <h3>John Bennett</h3>
