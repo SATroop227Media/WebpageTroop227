@@ -7,7 +7,7 @@ header {
   top:0;
 
   background: var(--color-neutral-100);
-  border-bottom: 2px solid rgb(139, 121, 37);
+  border-bottom: 2px solid rgba(54, 0, 0, 0.555);
   color: var(--color-neutral-1000);
 
   height: var(--global-layout-header-element-height);
