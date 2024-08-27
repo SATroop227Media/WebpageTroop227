@@ -1,0 +1,27 @@
+.project-timeline {
+    position: relative;
+    padding-inline: var(--global-layout-padding-gutter);
+}
+
+.project__year-list::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 100%;
+    border-left: 2px solid cornflowerblue;
+}
+
+.project__year {
+    display: flex;
+}
+
+.project__year::before {
+    content: '';
+    display: block;
+    width: 26px;
+    height: 26px;
+    border-radius: 13px;
+    border: 1px solid #cacaca;
+}

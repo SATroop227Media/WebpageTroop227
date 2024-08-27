@@ -1,5 +1,5 @@
 import eagle from "../../../assets/EagleScout1.jpg"
-
+import "../../../styles/components/project-timeline.css"
 // reference this: https://www.kenan-flagler.unc.edu/about/history/
 
 function ProjectContent() {
@@ -8,12 +8,10 @@ function ProjectContent() {
             <section className="project-hero">
                 <img src={eagle}/>
             </section>
-            <section className="project-content">
-                <div className="project__timeline-base">
-
-                </div>
+            <section className="project-timeline">
                 <ol className="project__year-list">
-                    <li>
+                    <li className="project__year">
+                        <div className="project__year-content">
                         <h2>2003</h2>
                         <ul className="project__project-list">
                             <li>
@@ -21,15 +19,19 @@ function ProjectContent() {
                                 <p>Refurbished a basketball court area in Switzer Park, Bargersville, IN.</p>
                             </li>
                         </ul>
+                        </div>
                     </li>
-                    <li>
+                    <li className="project__year">
+                        <div className="project__year-content">
                         <h2>2005</h2>
                         <ul className="project__project-list">
                             <h3>Bobby Leonard</h3>
                             <p>Added playground equipment to Switzer Park, Bargersville, IN.</p>
                         </ul>
+                        </div>
                     </li>
-                    <li>
+                    <li className="project__year">
+                        <div className="project__year-content">
                         <h2>2006</h2>
                         <ul className="project__project-list">
                             <li>
@@ -53,8 +55,10 @@ function ProjectContent() {
                                 <p>Built and equipped a Science Lab at St. Rose School School in Franklin, IN, in memory of his father.</p>                            
                             </li>
                         </ul>
+                        </div>
                     </li>
-                    <li>
+                    <li className="project__year">
+                        <div className="project__year-content">
                         <h2>2007</h2>
                         <ul className="project__project-list">
                             <li>
@@ -70,8 +74,10 @@ function ProjectContent() {
                                 <p>Built wooden toy cars for the Lord's Locker charity organization in Trafalgar, IN.</p>
                             </li>
                         </ul>
+                        </div>
                     </li>
-                    <li>
+                    <li className="project__year">
+                        <div className="project__year-content">
                         <h2>2008</h2>
                         <ul className="project__project-list">
                             <li>
@@ -83,8 +89,10 @@ function ProjectContent() {
                                 <p>Rebuilt and painted shelter house at Hopewell Church in Bargersville, IN.</p>
                             </li>
                         </ul>
+                        </div>
                     </li>
-                    <li>
+                    <li className="project__year">
+                        <div className="project__year-content">
                         <h2>2009</h2>
                         <ul className="project__project-list">
                             <li>
@@ -92,8 +100,10 @@ function ProjectContent() {
                                 <p>Built benches and picnic tables for St. Rose of Lima School, along with flower boxes and garden areas.</p>
                             </li>
                         </ul>
+                        </div>
                     </li>
-                    <li>
+                    <li className="project__year">
+                        <div className="project__year-content">
                         <h2>2010</h2>
                         <ul className="project__project-list">
                             <li>
@@ -117,8 +127,10 @@ function ProjectContent() {
                                 <p>Built picnic tables and benches for Windisch Park in Bargersville, IN.</p>
                             </li>
                         </ul>
+                        </div>
                     </li>
-                    <li>
+                    <li className="project__year">
+                        <div className="project__year-content">
                         <h2>2012</h2>
                         <ul className="project__project-list">
                             <li>
@@ -130,8 +142,10 @@ function ProjectContent() {
                                 <p>Renovated a jet plane display and grounds at American Legion in Edinburg, IN.</p>
                             </li>
                         </ul>
+                        </div>
                     </li>
-                    <li>
+                    <li className="project__year">
+                        <div className="project__year-content">
                         <h2>2014</h2>
                         <ul className="project__project-list">
                             <li>
@@ -139,8 +153,10 @@ function ProjectContent() {
                                 <p>Made Christmas trees using tomato cages and donated garland, lights, and ornaments for the Lord's Locker in Trafalgar, IN.</p>
                             </li>
                         </ul>
+                        </div>
                     </li>
-                    <li>
+                    <li className="project__year">
+                        <div className="project__year-content">
                         <h2>2016</h2>
                         <ul className="project__project-list">
                             <li>
@@ -156,8 +172,10 @@ function ProjectContent() {
                                 <p>Built a handicap ramp for St. Rose of Lima School modular building allowing school to meet ADA requirments.</p>
                             </li>
                         </ul>
+                        </div>
                     </li>
-                    <li>
+                    <li className="project__year">
+                        <div className="project__year-content">
                         <h2>2017</h2>
                         <ul className="project__project-list">
                             <li>
@@ -169,8 +187,10 @@ function ProjectContent() {
                                 <p>Renovated and landscaped at the American Legion in Franklin, IN.</p>
                             </li>
                         </ul>
+                        </div>
                     </li>
-                    <li>
+                    <li className="project__year">
+                        <div className="project__year-content">
                         <h2>2019</h2>
                         <ul className="project__project-list">
                             <li>
@@ -178,8 +198,10 @@ function ProjectContent() {
                                 <p>Built playground equipment, including gaga pit, at St. Rose of Lima School in Franklin, IN.</p>
                             </li>
                         </ul>
+                        </div>
                     </li>
-                    <li>
+                    <li className="project__year">
+                        <div className="project__year-content">
                         <h2>2020</h2>
                         <ul className="project__project-list">
                             <li>
@@ -191,8 +213,10 @@ function ProjectContent() {
                                 <p>Built Pre-School playground equipment at St. Rose of Lima Catholic School in Franklin, IN.</p>
                             </li>
                         </ul>
+                        </div>
                     </li>
-                    <li>
+                    <li className="project__year">
+                        <div className="project__year-content">
                         <h2>2022</h2>
                         <ul className="project__project-list">
                             <li>
@@ -204,8 +228,10 @@ function ProjectContent() {
                                 <p>Helped Resources of Hope in Whiteland IN move their inventory to a new facility and built clothing shelves for their new location.</p>
                             </li>
                         </ul>
+                        </div>
                     </li>
-                    <li>
+                    <li className="project__year">
+                        <div className="project__year-content">
                         <h2>2023</h2>
                         <ul className="project__project-list">
                             <li>
@@ -213,8 +239,10 @@ function ProjectContent() {
                                 <p>Created Christmas Care Packages for the Franklin Senior Citizens Center, and planned and emceed a party for the seniors, at which the care packages were distributed.</p>
                             </li>
                         </ul>
+                        </div>
                     </li>
-                    <li>
+                    <li className="project__year">
+                        <div className="project__year-content">
                         <h2>2024</h2>
                         <ul className="project__project-list">
                             <li>
@@ -222,6 +250,7 @@ function ProjectContent() {
                                 <p>Built a Covid-19 Memorial at Franklin IN Park, honoring emergency workers, first responders, and those who died during the COVID-19 epidemic.  The memorial included a timecapsule with letters and articles discussing life during the epidemic. Braiddinn's project was awarded the District and Council project of the year.</p>
                             </li>
                         </ul>
+                        </div>
                     </li>
                 </ol>
             </section>
