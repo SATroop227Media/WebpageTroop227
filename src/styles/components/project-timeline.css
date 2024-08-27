@@ -52,7 +52,7 @@
 
 .project__card {
     padding: 2rem;
-    min-width: 40ch;
+    min-width: 20ch;
     max-width: 70ch;
     background-color: var(--color-neutral-900);
     border-radius: 16px;
