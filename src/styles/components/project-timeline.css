@@ -60,7 +60,7 @@
 
 .project__year-content {
     position: relative;
-    padding-inline-start: 1rem;
+    padding-inline-start: .6rem;
 }
 
 .project__year-content > h2 {
