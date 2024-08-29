@@ -13,9 +13,9 @@ function ProjectContent() {
             </section>
             <section className="project-timeline" aria-label="Troop 227's Eagle Scout project timeline">
                 <ol className="project__year-list">
-                    <li className="project__year">
+                    <li className="project__year" aria-labelledby="2003-h">
                         <div className="project__year-content">
-                            <h2>2003</h2>
+                            <h2 id="2003-h">2003</h2>
                             <ul className="project__project-list">
                                 <li className="project__card">
                                     <h3>Rusty Leonard</h3>
@@ -24,9 +24,9 @@ function ProjectContent() {
                             </ul>
                         </div>
                     </li>
-                    <li className="project__year">
+                    <li className="project__year" aria-labelledby="2005-h">
                         <div className="project__year-content">
-                            <h2>2005</h2>
+                            <h2 id="2005-h">2005</h2>
                             <ul className="project__project-list">
                                 <li className="project__card">
                                     <h3>Bobby Leonard</h3>
@@ -35,9 +35,9 @@ function ProjectContent() {
                             </ul>
                         </div>
                     </li>
-                    <li className="project__year">
+                    <li className="project__year" aria-labelledby="2006-h">
                         <div className="project__year-content">
-                            <h2>2006</h2>
+                            <h2  id="2006-h">2006</h2>
                             <ul className="project__project-list">
                                 <li className="project__card">
                                     <h3>Dalton Chin</h3>
@@ -62,9 +62,9 @@ function ProjectContent() {
                             </ul>
                         </div>
                     </li>
-                    <li className="project__year">
+                    <li className="project__year" aria-labelledby="2007-h">
                         <div className="project__year-content">
-                            <h2>2007</h2>
+                            <h2  id="2007-h">2007</h2>
                             <ul className="project__project-list">
                                 <li className="project__card">
                                     <h3>Matt Byrne</h3>
@@ -81,9 +81,9 @@ function ProjectContent() {
                             </ul>
                         </div>
                     </li>
-                    <li className="project__year">
+                    <li className="project__year" aria-labelledby="2008-h">
                         <div className="project__year-content">
-                            <h2>2008</h2>
+                            <h2 id="2008-h">2008</h2>
                             <ul className="project__project-list" >
                                 <li className="project__card">
                                     <h3>Kevin Riley</h3>
@@ -96,9 +96,9 @@ function ProjectContent() {
                             </ul>
                         </div>
                     </li>
-                    <li className="project__year">
+                    <li className="project__year" aria-labelledby="2009-h">
                         <div className="project__year-content">
-                            <h2>2009</h2>
+                            <h2 id="2009-h">2009</h2>
                             <ul className="project__project-list">
                                 <li className="project__card">
                                     <h3>Brady Aldridge</h3>
@@ -107,9 +107,9 @@ function ProjectContent() {
                             </ul>
                         </div>
                     </li>
-                    <li className="project__year">
+                    <li className="project__year" aria-labelledby="2010-h">
                         <div className="project__year-content">
-                            <h2>2010</h2>
+                            <h2 id="2010-h">2010</h2>
                             <ul className="project__project-list">
                                 <li className="project__card">
                                     <h3>James Brummett</h3>
@@ -132,11 +132,11 @@ function ProjectContent() {
                                     <p>Built picnic tables and benches for Windisch Park in Bargersville, IN.</p>
                                 </li>
                             </ul>
-                            </div>
-                        </li>
-                        <li className="project__year">
+                        </div>
+                    </li>
+                        <li className="project__year" aria-labelledby="2012-h">
                             <div className="project__year-content">
-                            <h2>2012</h2>
+                            <h2 id="2012-h">2012</h2>
                             <ul className="project__project-list">
                                 <li className="project__card">
                                     <h3>Glenn Kyle III</h3>
@@ -149,9 +149,9 @@ function ProjectContent() {
                             </ul>
                         </div>
                     </li>
-                    <li className="project__year">
+                    <li className="project__year" aria-labelledby="2014-h">
                         <div className="project__year-content">
-                            <h2>2014</h2>
+                            <h2 id="2014-h">2014</h2>
                             <ul className="project__project-list">
                                 <li className="project__card">
                                     <h3>Caleb Brown</h3>
@@ -160,9 +160,9 @@ function ProjectContent() {
                             </ul>
                         </div>
                     </li>
-                    <li className="project__year">
+                    <li className="project__year" aria-labelledby="2016-h">
                         <div className="project__year-content">
-                            <h2>2016</h2>
+                            <h2 id="2016-h">2016</h2>
                             <ul className="project__project-list">
                                 <li className="project__card">
                                     <h3>Christian Kyle</h3>
@@ -179,9 +179,9 @@ function ProjectContent() {
                             </ul>
                         </div>
                     </li>
-                    <li className="project__year">
+                    <li className="project__year" aria-labelledby="2017-h">
                         <div className="project__year-content">
-                            <h2>2017</h2>
+                            <h2 id="2017-h">2017</h2>
                             <ul className="project__project-list">
                                 <li className="project__card">
                                     <h3>Jacob McKinney</h3>
@@ -194,9 +194,9 @@ function ProjectContent() {
                             </ul>
                         </div>
                     </li>
-                    <li className="project__year">
+                    <li className="project__year" aria-labelledby="2019-h">
                         <div className="project__year-content">
-                            <h2>2019</h2>
+                            <h2 id="2019-h">2019</h2>
                             <ul className="project__project-list">
                                 <li className="project__card">
                                     <h3>Seth Long</h3>
@@ -205,9 +205,9 @@ function ProjectContent() {
                             </ul>
                         </div>
                     </li>
-                    <li className="project__year">
+                    <li className="project__year" aria-labelledby="2020-h">
                         <div className="project__year-content">
-                            <h2>2020</h2>
+                            <h2 id="2020-h">2020</h2>
                             <ul className="project__project-list">
                                 <li className="project__card">
                                     <h3>Aiden Miller</h3>
@@ -220,9 +220,9 @@ function ProjectContent() {
                             </ul>
                         </div>
                     </li>
-                    <li className="project__year">
+                    <li className="project__year" aria-labelledby="2022-h">
                         <div className="project__year-content">
-                            <h2>2022</h2>
+                            <h2 id="2022-h">2022</h2>
                             <ul className="project__project-list">
                                 <li className="project__card">
                                     <h3>Alejandro Garnica</h3>
@@ -235,9 +235,9 @@ function ProjectContent() {
                             </ul>
                         </div>
                     </li>
-                    <li className="project__year">
+                    <li className="project__year" aria-labelledby="2023-h">
                         <div className="project__year-content">
-                            <h2>2023</h2>
+                            <h2 id="2023-h">2023</h2>
                             <ul className="project__project-list">
                                 <li className="project__card">
                                     <h3>Damien Burke</h3>
@@ -246,9 +246,9 @@ function ProjectContent() {
                             </ul>
                         </div>
                     </li>
-                    <li className="project__year">
+                    <li className="project__year" aria-labelledby="2024-h">
                         <div className="project__year-content">
-                            <h2>2024</h2>
+                            <h2 id="2024-h">2024</h2>
                             <ul className="project__project-list">
                                 <li className="project__card">
                                     <h3>Braiddinn Plymate</h3>
