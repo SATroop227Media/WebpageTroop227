@@ -16,7 +16,7 @@ function ProjectContent() {
                     <li className="project__year">
                         <div className="project__year-content">
                             <h2>2003</h2>
-                            <ul className="project__project-list" aria-label="2003 project">
+                            <ul className="project__project-list">
                                 <li className="project__card">
                                     <h3>Rusty Leonard</h3>
                                     <p>Refurbished a basketball court area in Switzer Park, Bargersville, IN.</p>
@@ -27,7 +27,7 @@ function ProjectContent() {
                     <li className="project__year">
                         <div className="project__year-content">
                             <h2>2005</h2>
-                            <ul className="project__project-list" aria-label="2005 project">
+                            <ul className="project__project-list">
                                 <li className="project__card">
                                     <h3>Bobby Leonard</h3>
                                     <p>Added playground equipment to Switzer Park, Bargersville, IN.</p>
@@ -38,7 +38,7 @@ function ProjectContent() {
                     <li className="project__year">
                         <div className="project__year-content">
                             <h2>2006</h2>
-                            <ul className="project__project-list" aria-label="2006 projects">
+                            <ul className="project__project-list">
                                 <li className="project__card">
                                     <h3>Dalton Chin</h3>
                                     <p>Built an outdoor chapel at Praise Acres, including benches (pews), a podium, and a large cross.</p>
@@ -65,7 +65,7 @@ function ProjectContent() {
                     <li className="project__year">
                         <div className="project__year-content">
                             <h2>2007</h2>
-                            <ul className="project__project-list" aria-label="2007 projects">
+                            <ul className="project__project-list">
                                 <li className="project__card">
                                     <h3>Matt Byrne</h3>
                                     <p>Built firepits at Praise Acres camping area in Bargersville, IN.</p>
@@ -84,7 +84,7 @@ function ProjectContent() {
                     <li className="project__year">
                         <div className="project__year-content">
                             <h2>2008</h2>
-                            <ul className="project__project-list" aria-label="2008 projects">
+                            <ul className="project__project-list" >
                                 <li className="project__card">
                                     <h3>Kevin Riley</h3>
                                     <p>Assembled book bags filled with school supplies for Johnson County and St. Rose of Lima Schools</p>
@@ -99,7 +99,7 @@ function ProjectContent() {
                     <li className="project__year">
                         <div className="project__year-content">
                             <h2>2009</h2>
-                            <ul className="project__project-list" aria-label="2009 project">
+                            <ul className="project__project-list">
                                 <li className="project__card">
                                     <h3>Brady Aldridge</h3>
                                     <p>Built benches and picnic tables for St. Rose of Lima School, along with flower boxes and garden areas.</p>
@@ -110,7 +110,7 @@ function ProjectContent() {
                     <li className="project__year">
                         <div className="project__year-content">
                             <h2>2010</h2>
-                            <ul className="project__project-list" aria-label="2010 projects">
+                            <ul className="project__project-list">
                                 <li className="project__card">
                                     <h3>James Brummett</h3>
                                     <p>Built St. Rose of Lima Church entry signs and concrete patio and kneelers for the Marian Grotto.</p>
@@ -137,7 +137,7 @@ function ProjectContent() {
                         <li className="project__year">
                             <div className="project__year-content">
                             <h2>2012</h2>
-                            <ul className="project__project-list" aria-label="2012 projects">
+                            <ul className="project__project-list">
                                 <li className="project__card">
                                     <h3>Glenn Kyle III</h3>
                                     <p>Renovated gardens used for science classes at Union Elementary School in Bargersville, IN.</p>
@@ -152,7 +152,7 @@ function ProjectContent() {
                     <li className="project__year">
                         <div className="project__year-content">
                             <h2>2014</h2>
-                            <ul className="project__project-list" aria-label="2014 project">
+                            <ul className="project__project-list">
                                 <li className="project__card">
                                     <h3>Caleb Brown</h3>
                                     <p>Made Christmas trees using tomato cages and donated garland, lights, and ornaments for the Lord's Locker in Trafalgar, IN.</p>
@@ -163,7 +163,7 @@ function ProjectContent() {
                     <li className="project__year">
                         <div className="project__year-content">
                             <h2>2016</h2>
-                            <ul className="project__project-list"  aria-label="2016 projects">
+                            <ul className="project__project-list">
                                 <li className="project__card">
                                     <h3>Christian Kyle</h3>
                                     <p>Added statue, memorial plaque, and plantings at Windisch Park in Bargersville, IN.</p>
@@ -182,7 +182,7 @@ function ProjectContent() {
                     <li className="project__year">
                         <div className="project__year-content">
                             <h2>2017</h2>
-                            <ul className="project__project-list"  aria-label="2017 projects">
+                            <ul className="project__project-list">
                                 <li className="project__card">
                                     <h3>Jacob McKinney</h3>
                                     <p>Renovated Scott Park near baseball diamonds in Franklin, IN.</p>
@@ -197,7 +197,7 @@ function ProjectContent() {
                     <li className="project__year">
                         <div className="project__year-content">
                             <h2>2019</h2>
-                            <ul className="project__project-list" aria-label="2019 project">
+                            <ul className="project__project-list">
                                 <li className="project__card">
                                     <h3>Seth Long</h3>
                                     <p>Built playground equipment, including gaga pit, at St. Rose of Lima School in Franklin, IN.</p>
@@ -208,7 +208,7 @@ function ProjectContent() {
                     <li className="project__year">
                         <div className="project__year-content">
                             <h2>2020</h2>
-                            <ul className="project__project-list"  aria-label="2020 projects">
+                            <ul className="project__project-list">
                                 <li className="project__card">
                                     <h3>Aiden Miller</h3>
                                     <p>Gathered care packages for the Wheeler Mission Women's Shelter in Indianapolis, IN.</p>
@@ -223,7 +223,7 @@ function ProjectContent() {
                     <li className="project__year">
                         <div className="project__year-content">
                             <h2>2022</h2>
-                            <ul className="project__project-list"  aria-label="2022 projects">
+                            <ul className="project__project-list">
                                 <li className="project__card">
                                     <h3>Alejandro Garnica</h3>
                                     <p>Created weekend meals and birthday gifts for patrons of the Interchurch Food Pantry of Johnson County.</p>
@@ -238,7 +238,7 @@ function ProjectContent() {
                     <li className="project__year">
                         <div className="project__year-content">
                             <h2>2023</h2>
-                            <ul className="project__project-list"  aria-label="2023 project">
+                            <ul className="project__project-list">
                                 <li className="project__card">
                                     <h3>Damien Burke</h3>
                                     <p>Created Christmas Care Packages for the Franklin Senior Citizens Center, and planned and emceed a party for the seniors, at which the care packages were distributed.</p>
@@ -249,7 +249,7 @@ function ProjectContent() {
                     <li className="project__year">
                         <div className="project__year-content">
                             <h2>2024</h2>
-                            <ul className="project__project-list"  aria-label="2024 project">
+                            <ul className="project__project-list">
                                 <li className="project__card">
                                     <h3>Braiddinn Plymate</h3>
                                     <p>Built a Covid-19 Memorial at Franklin IN Park, honoring emergency workers, first responders, and those who died during the COVID-19 epidemic.  The memorial included a timecapsule with letters and articles discussing life during the epidemic. Braiddinn's project was awarded the District and Council project of the year.</p>
