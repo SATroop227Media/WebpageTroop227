@@ -63,7 +63,7 @@ function MainContent() {
           <p className='home-hero__description'>For over 60 years, Troop 227 has been active in Johnson County and bringing about positive change. We seek to instill the values and mission of Scouting into the young men and women by teaching skills and lessons to last a life time!</p>
         </article>
         <div className='home-hero__background'>
-          <img src={stock1} alt='Point of view shot of a parade of scouts as they proceed up a trail'/>
+          <img src={stock1} alt='A procession of scouts parading with banners as they proceed on a trail between the mountains'/>
         </div>
       </section>
 
@@ -82,7 +82,7 @@ function MainContent() {
           We sincerely hope that you and your family consider becoming involved with Scouting and that you contact one of our leaders if you're interested in joining.
         </p>
         <div className='polaroid polaroid-skewed'>
-          <img src={group}/>
+          <img src={group} alt='A group photo of the scouts and scout leaders of Boy Scout Troop 227 in a campsite at Ransburg Scout Reservation'/>
         </div>
       </section>
 
@@ -107,7 +107,7 @@ function MainContent() {
               </div>
             </div>
             <div className='home-values__img-wrapper' data-comp-observee="" data-comp-observee-threshold=".01">
-              <img src={badgeStock}/>
+              <img src={badgeStock} alt='A scout pointing to the merit badges on the sash worn by another scout'/>
             </div>
           </div>
         </article>
@@ -122,7 +122,7 @@ function MainContent() {
           <li>
             <article className='home-impact__list-item' aria-labelledby='project-1' data-comp-observee="">
               <div className='home-impact__item-img polaroid'>
-                <img src={project1} alt="Troop 227 scout and adult leaders measuring dimensions of a children's playground"/>  
+                <img src={project1} alt="Two scouts out of uniform and a volunteer observing another volunteer as he measures the distance between two posts on a piece of playground equipment that is currently being worked on"/>  
               </div>
               <div className='home-impact__item-content'>
                 <h3>
@@ -145,7 +145,7 @@ function MainContent() {
           <li>
             <article className='home-impact__list-item' aria-labelledby='project-2' data-comp-observee="">
               <div className='home-impact__item-img polaroid'>
-                <img src={project2} alt='Scout and his grandfather standing in front of food that was donated for his Eagle project'/>
+                <img src={project2} alt='Scout, Alejandro Garnica, and a volunteer standing together infront of lunch bags created for Eagle Scout project inside of a warehouse'/>
               </div>
               <div  className='home-impact__item-content'>
                 <h3>Alejandro Garnica - Johnson County Food Pantry</h3>
@@ -163,7 +163,7 @@ function MainContent() {
           <li>
             <article className='home-impact__list-item' aria-labelledby='project-3' data-comp-observee="">
               <div className='home-impact__item-img polaroid'>
-                <img src={project3} alt='Scout standing infront of clothing racks created for his Eagle project'/>
+                <img src={project3} alt='Scout, Joshua Stephen Miller, standing infront of the three clothing racks he created for his Eagle Scout project at Resources of Hope'/>
               </div>
               <div  className='home-impact__item-content'>
                 <h3>Joshua Stephen Miller - Resources of Hope</h3>
