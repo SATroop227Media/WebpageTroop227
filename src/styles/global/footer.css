@@ -6,7 +6,7 @@
         position: relative;
         display: flex;
         flex-direction: column;
-        gap: 1rem;  
+        gap: 2.5rem;  
     }
 
     .cta__contact-wrapper {
@@ -23,6 +23,7 @@
 }
 .cta > p {
     text-align: center;
+    font-size: .75rem;
 }
 
 .cta a {
@@ -31,7 +32,8 @@
 
 footer {
     background-color: var(--color-neutral-0);
-    padding-block: 5rem;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
     padding-inline: 2rem;
     color: var(--color-neutral-1000);
 }
