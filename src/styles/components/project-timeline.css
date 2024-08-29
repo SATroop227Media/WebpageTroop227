@@ -16,7 +16,8 @@
 }
 
 .project__content {
-    margin: 0 2rem;
+    margin: 0 2rem var(--global-layout-padding-block) 2rem;
+
 }
 
 .project__content > h2 {
