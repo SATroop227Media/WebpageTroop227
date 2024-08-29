@@ -5,6 +5,8 @@
     --timeline-color: var(--color-primary-base);
     --timeline-background-color: var(--color-neutral-1000);
     background-color: var(--timeline-background-color);
+    max-width: var(--global-layout-max-width);
+    margin: 0 auto;
 }
 
 .project__content,
