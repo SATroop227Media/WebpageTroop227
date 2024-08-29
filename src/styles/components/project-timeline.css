@@ -7,6 +7,7 @@
     background-color: var(--timeline-background-color);
     max-width: var(--global-layout-max-width);
     margin: 0 auto;
+    border
 }
 
 .project__content,

@@ -23,15 +23,21 @@
 }
 .cta > p {
     text-align: center;
-    font-size: .75rem;
+    font-size: .75rem !important;
 }
 
 .cta a {
     display: block;
 }
 
+.cta__contact-wrapper > li {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
 footer {
-    background-color: var(--color-neutral-0);
+    background-color: var(--color-neutral-100);
     padding-top: 4rem;
     padding-bottom: 1rem;
     padding-inline: 2rem;
