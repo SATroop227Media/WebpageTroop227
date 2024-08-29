@@ -118,7 +118,7 @@ function MainContent() {
         <p>Troop 227 aids in community development by volunteering and by giving youth a safe space to grow and foster their values. 
           Across Johnson County you can find where our young leaders have left their mark through the love for their community and for scouting.
         </p>
-        <ul className='home-impact__list' aria-label="community projects by troop 227">
+        <ul className='home-impact__list' aria-label="troop 227 service projects">
           <li>
             <article className='home-impact__list-item' aria-labelledby='project-1-h' data-comp-observee="">
               <div className='home-impact__item-img polaroid'>
