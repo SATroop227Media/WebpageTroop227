@@ -7,12 +7,12 @@ export default function Footer() {
       <ul className="cta__contact-wrapper">
         <li>
           <h4>Joseph "JD" Henry - Scoutmaster</h4>
-          <a href="mailto:Jdhenryx@gmail.com?subject=Joining Troop 227">Jdhenryx@gmail.com</a>
+          <a href="mailto:Jdhenryx@gmail.com?subject=Joining Troop 227">Email: Jdhenryx@gmail.com</a>
           <a href="tel:3173139392">(317) 313-9392</a>
         </li>
         <li>
           <h4>Ron Smith - Committee Chair</h4>
-          <a href="mailto:rsmith@indianaskypics.com?subject=Joining Troop 227">rsmith@indianaskypics.com</a>
+          <a href="mailto:rsmith@indianaskypics.com?subject=Joining Troop 227">Email: rsmith@indianaskypics.com</a>
           <a href="tel:3174392640">Telephone: (317) 439-2640</a>
         </li>
       </ul>
