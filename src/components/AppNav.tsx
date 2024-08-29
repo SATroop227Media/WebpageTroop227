@@ -6,7 +6,7 @@ export default function AppNav() {
   return (
     <header className="troop227-header">
       <div className='troop227-header__logo' aria-roledescription="logo">
-        <img src="https://www.scouting.org/wp-content/uploads/2022/06/bsa-logo-hero-1.png" alt="Boy Scout Logo White Transparent" aria-hidden="true" />
+        <img src="https://www.scouting.org/wp-content/uploads/2022/06/bsa-logo-hero-1.png" alt="white and transparent boy scout logo"/>
         <h1 className='troop227-header__title' data-mobile-only="">Troop 227</h1>
         <h1 className='troop227-header__title' data-desktop-only="">Boy Scout Troop 227<span>American Legion Post 205</span></h1>
       </div>
