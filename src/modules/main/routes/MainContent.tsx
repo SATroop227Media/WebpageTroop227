@@ -82,7 +82,7 @@ function MainContent() {
           We sincerely hope that you and your family consider becoming involved with Scouting and that you contact one of our leaders if you're interested in joining.
         </p>
         <div className='polaroid polaroid-skewed'>
-          <img src={group} alt='A group photo of the scouts and scout leaders of Boy Scout Troop 227 in a campsite at Ransburg Scout Reservation'/>
+          <img src={group} alt='A group photo of Boy Scout Troop 227 in a campsite at Ransburg Scout Reservation'/>
         </div>
       </section>
 
@@ -120,12 +120,12 @@ function MainContent() {
         </p>
         <ul className='home-impact__list' aria-label="community projects by troop 227">
           <li>
-            <article className='home-impact__list-item' aria-labelledby='project-1' data-comp-observee="">
+            <article className='home-impact__list-item' aria-labelledby='project-1-h' data-comp-observee="">
               <div className='home-impact__item-img polaroid'>
                 <img src={project1} alt="Two scouts out of uniform and a volunteer observing another volunteer as he measures the distance between two posts on a piece of playground equipment that is currently being worked on"/>  
               </div>
               <div className='home-impact__item-content'>
-                <h3>
+                <h3 id='project-1-h'>
                   Jonathan Gaven Miller - Saint Rose of Lima School
                 </h3>
                 <p>
@@ -143,12 +143,12 @@ function MainContent() {
             </article>
           </li>
           <li>
-            <article className='home-impact__list-item' aria-labelledby='project-2' data-comp-observee="">
+            <article className='home-impact__list-item' aria-labelledby='project-2-h' data-comp-observee="">
               <div className='home-impact__item-img polaroid'>
-                <img src={project2} alt='Scout, Alejandro Garnica, and a volunteer standing together infront of lunch bags created for Eagle Scout project inside of a warehouse'/>
+                <img src={project2} alt='Alejandro Garnica and a volunteer standing together infront of lunch bags created for Eagle Scout project inside of a warehouse'/>
               </div>
               <div  className='home-impact__item-content'>
-                <h3>Alejandro Garnica - Johnson County Food Pantry</h3>
+                <h3 id='project-2-h'>Alejandro Garnica - Johnson County Food Pantry</h3>
                 <p>
                   Alejandro put together bags for the Johnson County Interchurch Food Pantry consisting of 200 weekend lunch bags and 75 birthday bags. 
                   The lunch bags including a meal and several snacks while the birthday bag including a cake and toy so that the families can have birthdays for their kids. 
@@ -161,12 +161,12 @@ function MainContent() {
             </article>
           </li>
           <li>
-            <article className='home-impact__list-item' aria-labelledby='project-3' data-comp-observee="">
+            <article className='home-impact__list-item' aria-labelledby='project-3-h' data-comp-observee="">
               <div className='home-impact__item-img polaroid'>
-                <img src={project3} alt='Scout, Joshua Stephen Miller, standing infront of the three clothing racks he created for his Eagle Scout project at Resources of Hope'/>
+                <img src={project3} alt='Joshua Stephen Miller standing infront of the three clothing racks he created for his Eagle Scout project inside Resources of Hope'/>
               </div>
               <div  className='home-impact__item-content'>
-                <h3>Joshua Stephen Miller - Resources of Hope</h3>
+                <h3 id='project-3-h'>Joshua Stephen Miller - Resources of Hope</h3>
                 <p>
                   Joshua assisted Resources of Hope in Whiteland, Indiana in relocating to a larger facility in Whiteland. 
                   Part of the project included building three 10ft long free-standing clothing racks that was built on-site in the new facility.  
