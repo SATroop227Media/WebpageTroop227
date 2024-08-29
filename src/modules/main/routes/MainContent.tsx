@@ -57,7 +57,7 @@ function MainContent() {
 
   return (
     <>
-      <section className="home-hero" aria-label="Our Impact" data-comp-observee="" data-comp-observee-threshold=".01">
+      <section className="home-hero" aria-label="Introduction" data-comp-observee="" data-comp-observee-threshold=".01">
         <article className='home-hero__content'>
           <h1 className='home-hero__header'>Creating the leaders of tomorrow by fostering the youth of today  </h1>
           <p className='home-hero__description'>For over 60 years, Troop 227 has been active in Johnson County and bringing about positive change. We seek to instill the values and mission of Scouting into the young men and women by teaching skills and lessons to last a life time!</p>
@@ -67,7 +67,7 @@ function MainContent() {
         </div>
       </section>
 
-      <section className='home-intro'>
+      <section className='home-intro' aria-label='Mission'>
         <h2>Be a part of something more</h2>
         <p>
           Troop 227 began when it was chartered in __ and has been serving scouts in the Johnson County area ever since. 
@@ -86,23 +86,23 @@ function MainContent() {
         </div>
       </section>
 
-      <section className='home-values' aria-label="Be prepared">
+      <section className='home-values' aria-label="Values">
         <article className='home-values__content'>
           <h2>"Be Prepared"</h2>
           <p>Our motto - Be Prepared - the slogan that we live by. 
             By teaching our scouts the importance of preparing themselves to become strong leaders and productive citizens we give them the skills that will last a lifetime.</p>
           <div className='home-values__content-bottom'>
             <div className='home-values__cards-content'>
-              <div className='home-values__card' data-comp-observee="">
-                <h3>Scout Mission</h3>
+              <div className='home-values__card' data-comp-observee="" aria-labelledby='mission-h3'>
+                <h3 id='mission-h3'>Scout Mission</h3>
                 <p>The mission of the Boy Scouts of America is to prepare young people to make ethical and moral choices over their lifetimes by instilling in them the values of the Scout Oath and Law.</p>
               </div>
-              <div className='home-values__card' data-comp-observee="">
-                <h3>Scout Law</h3>
+              <div className='home-values__card' data-comp-observee="" aria-labelledby="law-h3">
+                <h3 id='law-h3'>Scout Law</h3>
                 <p>A Scout is trustworthy, loyal, helpful, friendly, courteous, kind, obedient, cheerful, thrifty, brave, clean, and reverent.</p>
               </div>
-              <div className='home-values__card' data-comp-observee="">
-                <h3>Scout Oath</h3>
+              <div className='home-values__card' data-comp-observee="" aria-labelledby='oath-h3'>
+                <h3 id='oath-h3'>Scout Oath</h3>
                 <p>“On my honor I will do my best to do my duty to God and my country and to obey the Scout Law; to help other people at all times; to keep myself physically strong, mentally awake, and morally straight.”</p>  
               </div>
             </div>
@@ -113,7 +113,7 @@ function MainContent() {
         </article>
       </section>
 
-      <section className='home-impact' aria-label='making a difference'>
+      <section className='home-impact' aria-label='Projects'>
         <h2>See our impact!</h2>
         <p>Troop 227 aids in community development by volunteering and by giving youth a safe space to grow and foster their values. 
           Across Johnson County you can find where our young leaders have left their mark through the love for their community and for scouting.
