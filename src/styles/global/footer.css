@@ -15,8 +15,22 @@
         gap: 1rem;
     }
 
+    .cta__content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cta__right {
+        display: flex;
+        justify-content: center;
+    }
+
     @media (min-width: 52rem) {
         .cta__contact-wrapper {
+            flex-direction: row;
+        }
+
+        .cta__content {
             flex-direction: row;
         }
     }
