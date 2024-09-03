@@ -1,4 +1,4 @@
-import eagle from "../../../assets/EagleScout1.jpg"
+import eagle from "../../../assets/EagleScout1.webp"
 import "../../../styles/components/project-banner.css"
 import "../../../styles/components/project-timeline.css"
 // reference this: https://www.kenan-flagler.unc.edu/about/history/
