@@ -16,7 +16,7 @@ export default function Footer() {
           <a href="tel:3174392640">Phone: (317) 439-2640</a>
         </li>
       </ul>
-      <p>Boy Scout Troop 227 - Indiana 2024 | Join us today!</p>
+      <p>Boy Scout Troop 227 - Indiana 2024 | <a href="mailto:Jdhenryx@gmail.com?subject=Joining Troop 227">Join us today!</a></p>
     </footer>
   );
 }

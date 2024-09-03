@@ -31,6 +31,10 @@
     color: #0066cc;
 }
 
+.cta p > a {
+    display: inline;
+}
+
 .cta__contact-wrapper > li {
     display: flex;
     flex-direction: column;
